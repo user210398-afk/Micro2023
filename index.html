@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plataforma de Simulados - Prova 2023 (Micologia Médica)</title>
+    <title>Plataforma de Simulados - Prova 2025 (Micologia Médica)</title>
     <style>
         :root {
             --bg-gradient: linear-gradient(135deg, #0b0f19 0%, #111827 50%, #1e1b4b 100%);
@@ -184,7 +184,7 @@
         .hub-title {
             font-size: 2.6rem;
             font-weight: 900;
-            background: linear-gradient(90deg, #818cf8, #c084fc, #38bdf8);
+            background: linear-gradient(90deg, #10b981, #38bdf8, #818cf8);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             margin-bottom: 15px;
@@ -272,9 +272,9 @@
             text-transform: uppercase;
         }
 
-        .badge-2024 { background: rgba(56, 189, 248, 0.2); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.4); }
-        .badge-2025 { background: rgba(168, 85, 247, 0.2); color: #c084fc; border: 1px solid rgba(168, 85, 247, 0.4); }
-        .badge-misto { background: rgba(236, 72, 153, 0.2); color: #f472b6; border: 1px solid rgba(236, 72, 153, 0.4); }
+        .badge-2025 { background: rgba(16, 185, 129, 0.2); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.4); }
+        .badge-pt1 { background: rgba(56, 189, 248, 0.2); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.4); }
+        .badge-pt2 { background: rgba(168, 85, 247, 0.2); color: #c084fc; border: 1px solid rgba(168, 85, 247, 0.4); }
         .badge-flashcards { background: rgba(245, 158, 11, 0.2); color: #f59e0b; border: 1px solid rgba(245, 158, 11, 0.4); }
 
         .hub-card h2 { font-size: 1.45rem; margin-bottom: 12px; color: var(--text-main); }
@@ -295,14 +295,14 @@
             gap: 10px;
         }
 
-        .btn-2024 { background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%); color: white; }
-        .btn-2024:hover { background: linear-gradient(135deg, #0369a1 0%, #075985 100%); transform: scale(1.02); }
-
         .btn-2025 { background: linear-gradient(135deg, #10b981 0%, #059669 100%); color: white; }
         .btn-2025:hover { background: linear-gradient(135deg, #059669 0%, #047857 100%); transform: scale(1.02); }
 
-        .btn-misto { background: linear-gradient(135deg, #ec4899 0%, #be185d 100%); color: white; }
-        .btn-misto:hover { background: linear-gradient(135deg, #be185d 0%, #9d174d 100%); transform: scale(1.02); }
+        .btn-pt1 { background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%); color: white; }
+        .btn-pt1:hover { background: linear-gradient(135deg, #0369a1 0%, #075985 100%); transform: scale(1.02); }
+
+        .btn-pt2 { background: linear-gradient(135deg, #ec4899 0%, #be185d 100%); color: white; }
+        .btn-pt2:hover { background: linear-gradient(135deg, #be185d 0%, #9d174d 100%); transform: scale(1.02); }
 
         .btn-flash { background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%); color: white; }
         .btn-flash:hover { background: linear-gradient(135deg, #d97706 0%, #b45309 100%); transform: scale(1.02); }
@@ -1102,9 +1102,9 @@
                 </button>
             </div>
 
-            <div class="hub-title">🍄 PORTAL DE SIMULADOS - PROVA 2023</div>
+            <div class="hub-title">🔬 PORTAL DE SIMULADOS - PROVA 2025</div>
             <div class="hub-subtitle">
-                Banco unificado com 40 questões completas de Micologia Médica (Questões 1 a 40 da Prova 2023). Selecione a modalidade de estudo para iniciar seu treino com gabarito comentado, cronômetro e estatísticas detalhadas.
+                Banco unificado com as 30 questões completas da Prova 2025 (Micologia, Infectologia e ISTs). Selecione o modo de estudo desejado, filtre por tópicos específicos e acompanhe seu rendimento em tempo real.
             </div>
 
             <!-- SELETOR DE MODO DE JOGO E FILTRO MULTI-TEMA -->
@@ -1132,39 +1132,39 @@
             </div>
 
             <div class="hub-cards-grid">
-                <!-- CARD SIMULADO COMPLETO PROVA 2023 -->
+                <!-- CARD SIMULADO COMPLETO PROVA 2025 -->
                 <div class="hub-card">
                     <div>
-                        <span class="hub-card-badge badge-2024">Prova 2023</span>
-                        <h2>Simulado Completo - Prova 2023</h2>
-                        <p>40 Questões teóricas e diagnósticas cobrindo pneumocistose, paracoccidioidomicose, histoplasmose, coccidioidomicose, aspergilose, dermatofitoses, esporotricose, candidíase e mais.</p>
+                        <span class="hub-card-badge badge-2025">Prova 2025</span>
+                        <h2>Simulado Completo - Prova 2025</h2>
+                        <p>30 Questões teóricas e diagnósticas integradas abrangendo Candida auris, micoses dimórficas, ISTs, dermatofitoses emergentes, mucormicose e infectologia clínica.</p>
                     </div>
-                    <button class="btn-hub-action btn-2024" onclick="startSimulado('2023_full')">
-                        🚀 Iniciar Simulado Completo (1-40)
+                    <button class="btn-hub-action btn-2025" onclick="startSimulado('2025_full')">
+                        🚀 Iniciar Simulado Completo (1-30)
                     </button>
                 </div>
 
-                <!-- CARD PROVA 2023 PARTE 1 -->
+                <!-- CARD PROVA 2025 PARTE 1 -->
                 <div class="hub-card">
                     <div>
-                        <span class="hub-card-badge badge-2025">Parte 1</span>
-                        <h2>Prova 2023 - Bloco 1 (Q1 a Q20)</h2>
-                        <p>Primeiras 20 questões focadas em micoses profundas e sistêmicas, dimorfismo fúngico, leveduras oportunistas e dermatofitoses.</p>
+                        <span class="hub-card-badge badge-pt1">Parte 1</span>
+                        <h2>Prova 2025 - Bloco 1 (Q1 a Q15)</h2>
+                        <p>Primeiras 15 questões focadas em micoses profundas e leveduras oportunistas, pneumocistose, ISTs e diagnósticos histopatológicos.</p>
                     </div>
-                    <button class="btn-hub-action btn-2025" onclick="startSimulado('2023_pt1')">
-                        ⚡ Iniciar Parte 1 (Q1 a Q20)
+                    <button class="btn-hub-action btn-pt1" onclick="startSimulado('2025_pt1')">
+                        ⚡ Iniciar Parte 1 (Q1 a Q15)
                     </button>
                 </div>
 
-                <!-- CARD PROVA 2023 PARTE 2 -->
+                <!-- CARD PROVA 2025 PARTE 2 -->
                 <div class="hub-card">
                     <div>
-                        <span class="hub-card-badge badge-misto">Parte 2</span>
-                        <h2>Prova 2023 - Bloco 2 (Q21 a Q40)</h2>
-                        <p>Segundas 20 questões cobrindo micoses superficiais/subcutâneas (pitiríase versicolor, lacaziose, cromomicose, micetoma) e leveduroses (criptococose e candidíase).</p>
+                        <span class="hub-card-badge badge-pt2">Parte 2</span>
+                        <h2>Prova 2025 - Bloco 2 (Q16 a Q30)</h2>
+                        <p>Segundas 15 questões cobrindo micoses subcutâneas (cromomicose, esporotricose, lobomicose), micetomas, criptococose e dermatófitos resistentes.</p>
                     </div>
-                    <button class="btn-hub-action btn-misto" onclick="startSimulado('2023_pt2')">
-                        🔀 Iniciar Parte 2 (Q21 a Q40)
+                    <button class="btn-hub-action btn-pt2" onclick="startSimulado('2025_pt2')">
+                        🔀 Iniciar Parte 2 (Q16 a Q30)
                     </button>
                 </div>
 
@@ -1172,8 +1172,8 @@
                 <div class="hub-card">
                     <div>
                         <span class="hub-card-badge badge-flashcards">Revisão Ativa</span>
-                        <h2>Modo Flashcards 2023</h2>
-                        <p>Cartões de estudo interativos gerados a partir do banco da Prova 2023 para memorização de diagnósticos, micromorfologia e aspectos epidemiológicos.</p>
+                        <h2>Modo Flashcards 2025</h2>
+                        <p>Cartões de estudo interativos gerados a partir da Prova 2025 para memorização de conceitos, achados microscópicos e infectologia clínica.</p>
                     </div>
                     <button class="btn-hub-action btn-flash" onclick="startFlashcards()">
                         🎴 Estudar por Flashcards
@@ -1206,7 +1206,7 @@
                 </div>
                 <div class="hud-stat">
                     <span>Questão:</span>
-                    <span class="hud-stat-val" id="hud-q-num">1 / 40</span>
+                    <span class="hud-stat-val" id="hud-q-num">1 / 30</span>
                 </div>
                 <div class="hud-stat" id="hud-timer-stat">
                     <span>⏱️ Tempo:</span>
@@ -1313,10 +1313,10 @@
             </div>
         </div>
 
-        <!-- TELA MODO FLASHCARDS REFORMULADO -->
+        <!-- TELA MODO FLASHCARDS -->
         <div class="flashcards-screen" id="flashcards-screen">
             <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
-                <h2 style="color: #f59e0b; font-size: 1.6rem; font-weight: 800;">🎴 Flashcards - Prova 2023</h2>
+                <h2 style="color: #f59e0b; font-size: 1.6rem; font-weight: 800;">🎴 Flashcards - Prova 2025</h2>
                 <div style="display: flex; gap: 8px;">
                     <button class="action-btn action-btn-secondary btn-layout-toggle-class" onclick="toggleMobileLayout()" style="padding: 6px 12px; font-size: 0.85rem;">
                         📱 Modo Celular: AUTO
@@ -1324,7 +1324,7 @@
                     <button class="action-btn action-btn-secondary" onclick="goToHub()">🏠 Menu</button>
                 </div>
             </div>
-            <p style="color: var(--text-muted); margin-top: 5px;" id="flash-card-counter">Cartão 1 de 40</p>
+            <p style="color: var(--text-muted); margin-top: 5px;" id="flash-card-counter">Cartão 1 de 30</p>
 
             <div class="flashcard-card">
                 <div>
@@ -1387,7 +1387,7 @@
                 <div id="rep-diagnostic-text" style="margin-top: 5px;"></div>
             </div>
 
-            <h3 style="color: #38bdf8; margin-top: 25px; font-size: 1.2rem;">Análise Detalhada por Tema da Prova 2023:</h3>
+            <h3 style="color: #38bdf8; margin-top: 25px; font-size: 1.2rem;">Análise Detalhada por Tema da Prova 2025:</h3>
             <div style="overflow-x: auto;">
                 <table class="report-table">
                     <thead>
@@ -1504,97 +1504,125 @@
 
     <script>
         /* ==========================================================================
-           1. BANCO DE DADOS - PROVA 2023 (40 QUESTÕES COMPLETAS DE MICOLOGIA)
+           1. BANCO DE DADOS - PROVA 2025 (30 QUESTÕES COMPLETAS UNIFICADAS)
            ========================================================================== */
-        const questions2023 = [
+        const questions2025 = [
             {
                 num: 1,
-                category: "Pneumocistose e Exame Direto",
-                statement: "Questão 1\nEnunciado:\nUm paciente diagnosticado há 5 anos com infecção por HIV procura atendimento médico com queixa de tosse e febre nas duas últimas semanas. Ele relata que não tem seguido o tratamento antirretroviral de forma adequada, e que nos últimos meses, tem perdido peso. Traz um exame de sangue realizado que mostra número de linfócitos TCD4+ de 250 células/mm3 de sangue. O médico então solicita um Raio X de tórax que mostra um infiltrado intersticial difuso em ambos os pulmões com predomínio nos lobos inferiores e Peri-hilar (FIGURA 1A-Caderno de figuras). Realiza também uma broncoscopia, com coleta de lavado bronco alveolar que envia para exame direto (FIGURA 1B-Caderno de figuras) e cultura microbiológica (FIGURAS 1C e 1D-Caderno de figuras). Após avaliar os resultados dos exames é CORRETO AFIRMAR QUE:",
+                category: "Candida auris e Multirresistência",
+                statement: "Questão 1\nEnunciado:\nVárias espécies de Candida podem ser consideradas oportunistas, mas atualmente a espécie C. auris tem levantado preocupações. Em relação a essa espécie, analise as afirmações a seguir:\nI) Trata-se de patógeno oportunista, que faz parte da microbiota normal de nossa pele e mucosa, mas que apresenta resistência a grande parte dos antifúngicos disponíveis atualmente.\nII) Trata-se de uma espécie de Candida anteriormente desconhecida como patógeno humano, mas que adquiriu a capacidade de ser transmitida de indivíduo para indivíduo por via respiratória.\nIII) Trata-se de um patógeno oportunista, transmitido por via respiratória, encontrado em fezes de aves migratórias que espalharam essa espécie de fungo por todos os continentes.\nIV) Trata-se de uma espécie da Candida anteriormente desconhecida, e que por isso apresenta difícil diagnóstico. Embora uma vez diagnosticada responda bem a tratamentos com antifúngicos convencionais.\nApós a análise, É POSSÍVEL AFIRMAR QUE:",
                 options: [
-                    "A. Trata-se provavelmente de uma coinfeção causada por duas espécies diferentes de fungos oportunistas. Fato demonstrado pelos resultados obtidos no exame direto e na cultura microbiológica.",
-                    "B. A doença é causada por Pneumocystis jirovecii, fato demonstrado pelo exame direto, onde é possível observar os cistos do fungo, devendo-se desconsiderar o achado da cultura.",
-                    "C. A doença em questão é causada por um fungo termo dimórfico (Histoplasma capsulatum), uma vez que no exame direto apresenta-se na forma de leveduras e na cultura apresenta-se como fungo filamentoso, produtor de conídios.",
-                    "D. É impossível determinar a causa da doença com os exames realizados, uma vez que os resultados do exame direto e de cultura microbiológica apresentam resultados conflitantes.",
-                    "E. A doença é causada por um fungo do gênero Aspergillus spp., fato demonstrado no resultado da cultura microbiológica onde é possível observar a estrutura reprodutiva característica desse gênero de fungos."
+                    "A. Somente a afirmação II é CORRETA.",
+                    "B. Somente a afirmação III é CORRETA.",
+                    "C. Nenhuma das afirmações é CORRETA.",
+                    "D. Somente a afirmação IV é CORRETA.",
+                    "E. Somente a afirmação I é CORRETA."
                 ],
-                correct: 1,
-                context: "<b>Justificativa:</b> O Pneumocystis jirovecii é um organismo não cultivável in vitro nos meios microbiológicos de rotina. O diagnóstico definitivo é realizado estritamente pela identificação microscópica direta de cistos ou trofozoítos no lavado broncoalveolar. Qualquer crescimento em cultura nesses casos representa germes da microbiota contaminante do trato respiratório e deve ser desconsiderado.<br><br><b>Análise das incorretas:</b> A, C, D e E ignoram a impossibilidade de cultivo do P. jirovecii em meios convencionais e atribuem erroneamente valor diagnóstico a isolados de cultura de amostras de vias aéreas."
+                correct: 2,
+                context: "<b>Justificativa da alternativa correta:</b><br>Todas as afirmativas possuem erros conceituais: C. auris não faz parte da microbiota humana normal, a transmissão nosocomial não é respiratória, não está associada a fezes de aves e é caracterizada por expressiva multirresistência aos antifúngicos.<br><br><b>Análise e correção das alternativas incorretas:</b><br>• I está incorreta: A C. auris não é um componente da microbiota comensal nativa da pele ou mucosas humanas.<br>• II está incorreta: A transmissão hospitalar de C. auris ocorre por contato com superfícies/fómites ou de pessoa para pessoa por contato direto, e não por via respiratória.<br>• III está incorreta: C. auris não é transmitida por via respiratória nem possui reservatório em fezes de aves migratórias.<br>• IV está incorreta: A C. auris é emergente e multidrogarresistente, apresentando elevada resistência a antifúngicos convencionais (fluconazol, anfotericina B)."
             },
             {
                 num: 2,
-                category: "Paracoccidioidomicose e Diagnóstico",
-                statement: "Questão 2\nEnunciado:\nAnalise o caso a seguir para responder às questões 2 e 3: “Roberto, 13 anos, morador de um bairro de periferia, que apresenta baixo índice de desenvolvimento social e com sérios problemas de saneamento básico e infraestrutura (esgoto a céu-aberto, falta de calçamento de rua, etc), foi encaminhado por uma Unidade Básica em Saúde para um hospital de referência para investigação. Durante a anamnese é relatado que até aproximadamente 45 dias atrás Roberto apresentava boa saúde, quando começou a apresentar episódios de febre e dores abdominais, acompanhados de cansaço, e o aparecimento de 'ínguas' na região do pescoço. No exame clínico Roberto encontra-se sonolento, mas orientado, baixo peso para a idade. O abdômen está distendido, doloroso a palpação. Fígado aumentado, com borda romba (14 cm abaixo da margem subcostal direita) e baço palpável (13 cm abaixo da margem subcostal esquerda). Também é possível observar o aumento bastante importante de linfonodos cervicais, axilares e inguinais. Ausculta pulmonar e RX de tórax não apresentaram alterações (resultados dentro da normalidade). Hemograma realizado mostrou eosinofilia importante (13% de eosinófilos)”.\n\nTendo em vista os sintomas apresentados, uma das hipóteses diagnósticas levantada pelo médico foi a de uma infecção causada por fungo. Os exames laboratoriais a seguir podem ser solicitados para auxiliar no diagnóstico, EXCETO:",
+                category: "Fungos Dimórficos e Transmissão",
+                statement: "Questão 2\nEnunciado:\nEm relação às micoses sistêmicas (profundas) causadas por fungos dimórficos analise as afirmações a seguir:\nI - A maioria é transmitida por via respiratória.\nII - São caracterizadas por serem infecções oportunistas, embora esporadicamente possam infectar indivíduos imunocompetentes.\nIII - Os fungos dimórficos recebem essa denominação pois podem ser encontrados tanto na forma de hifas, quanto na forma de leveduras nos tecidos do hospedeiro.\nIV - Apresentam em geral bom prognóstico, com resolução espontânea (mesmo sem tratamento) na maioria dos casos.\nSão CORRETAS AS AFIRMAÇÕES:",
                 options: [
-                    "A. Sorologia para detecção de antígenos ou anticorpos específicos.",
-                    "B. Exame direto de material obtido por punção de linfonodo.",
-                    "C. Cultura microbiológica de material obtido por punção de linfonodo.",
-                    "D. Exame direto e cultura microbiológica de Lavado Bronco Alveolar.",
-                    "E. Análise histopatológica de Biópsia de linfonodo."
+                    "A. Todas as afirmações são corretas.",
+                    "B. Somente a afirmação I é correta.",
+                    "C. Somente a afirmação III é correta.",
+                    "D. Somente as afirmações I e II são corretas.",
+                    "E. Somente as afirmações III e IV são corretas."
                 ],
-                correct: 3,
-                context: "<b>Justificativa:</b> A alternativa D representa a EXCEÇÃO. O caso clínico especifica que a ausculta pulmonar e a radiografia de tórax do paciente estão totalmente normais, sem qualquer acometimento parenquimatoso pulmonar. Portanto, a realização de lavado broncoalveolar (procedimento invasivo) não se justifica.<br><br><b>Análise das demais:</b> A, B, C e E são métodos diagnósticos indicados para a forma aguda/subaguda de paracoccidioidomicose, permitindo a identificação serológica ou histopatológica/microbiológica do fungo diretamente nas cadeias linfonodais."
+                correct: 1,
+                context: "<b>Justificativa da alternativa correta:</b><br>A principal via de infecção das micoses sistêmicas causadas por fungos dimórficos (Paracoccidioides, Histoplasma, Coccidioides) é a inalação de propágulos/conídios do meio ambiente, caracterizando a transmissão respiratória.<br><br><b>Análise e correção das alternativas incorretas:</b><br>• II está incorreta: São micoses endêmicas primárias que acometem indivíduos imunocompetentes, não sendo oportunistas estritas.<br>• III está incorreta: O dimorfismo é térmico: no meio ambiente (25°C) apresentam-se como hifas e no hospedeiro (37°C) assumem a forma de levedura (ou esférula), não existindo hifas nos tecidos humanos.<br>• IV está incorreta: As formas sistêmicas instaladas exigem tratamento antifúngico prolongado."
             },
             {
                 num: 3,
                 category: "Paracoccidioidomicose - Forma Aguda",
-                statement: "Questão 3\nEnunciado:\nO resultado do exame histopatológico da biópsia de linfonodo obtida está demonstrado nas figuras 3A e 3B (Caderno de figuras). Tendo em vista este resultado, é possível estabelecer o diagnóstico definitivo de:",
+                statement: "Questão 3\nEnunciado:\nAnalise o caso a seguir: “Roberto, 13 anos, morador de um bairro de periferia, que apresenta baixo índice de desenvolvimento social e com sérios problemas de saneamento básico e infraestrutura (esgoto a céu-aberto, falta de calçamento de rua, etc), foi encaminhado por uma Unidade Básica em Saúde para um hospital de referência para investigação. Durante a anamnese é relatado que até aproximadamente 60 dias atrás Roberto apresentava boa saúde, quando começou a apresentar episódios de febre e dores abdominais, acompanhados de cansaço, e o aparecimento de 'ínguas' na região do pescoço. No exame clínico Roberto encontra-se sonolento, mas orientado, baixo peso para a idade. O abdômen está distendido, doloroso a palpação. Fígado aumentado, com borda romba (14 cm abaixo da margem subcostal direita) e baço palpável (13 cm abaixo da margem subcostal esquerda). Também é possível observar o aumento bastante importante de linfonodos cervicais, axilares e inguinais. Ausculta pulmonar e RX de tórax não apresentaram alterações (resultados dentro da normalidade). Hemograma realizado mostrou eosinofilia importante (13% de eosinófilos)”.\nO resultado do exame histopatológico da biópsia de linfonodo obtida está demonstrado nas figuras Q3A e Q3B (Caderno de figuras). Tendo em vista este resultado, é possível estabelecer o diagnóstico definitivo de:",
                 options: [
-                    "A. Histoplasmose - Forma disseminada.",
-                    "B. Candidíase – Forma disseminada.",
+                    "A. Paracoccidioidomicose - Forma aguda.",
+                    "B. Histoplasmose - Forma disseminada.",
                     "C. Coccidioidomicose - Forma disseminada.",
                     "D. Criptococose - Forma invasiva ganglionar.",
-                    "E. Paracoccidioidomicose - Forma aguda."
+                    "E. Candidíase - Forma disseminada."
                 ],
-                correct: 4,
-                context: "<b>Justificativa:</b> O quadro em jovem de 13 anos com acometimento reticuloendotelial exuberante (linfadenopatia maciça, hepatosplenomegalia) acompanhado de expressiva eosinofilia periférica caracteriza classicamente a Paracoccidioidomicose - Forma Aguda/Subaguda (juvenil).<br><br><b>Análise das incorretas:</b> A, B, C e D não se apresentam tipicamente na forma juvenil hiperérgica acompanhada por eosinofilia acentuada e adenomegalia generalizada simétrica."
+                correct: 0,
+                context: "<b>Justificativa da alternativa correta:</b><br>O quadro de paciente jovem (13 anos), evolução subaguda, hepatoesplenomegalia maciça, linfadenopatia generalizada expressiva, marcada eosinofilia e ausência de comprometimento pulmonar constitui a apresentação clássica da Paracoccidioidomicose - Forma aguda/subaguda (tipo juvenil).<br><br><b>Análise das incorretas:</b><br>• B (Histoplasmose): Não cursa tipicamente com a forma juvenil hiperérgica com eosinofilia marcante.<br>• C, D e E: Coccidioidomicose, Criptococose e Candidíase possuem manifestações histopatológicas e clínicas distintas dessa apresentação linfóide juvenil com eosinofilia."
             },
             {
                 num: 4,
-                category: "Fungos Dimórficos e Endemias",
-                statement: "Questão 4\nEnunciado:\nDe forma geral, os fungos (termo)dimórficos são caracterizados por se apresentarem associados a áreas endêmicas específicas. No mapa (caderno de figuras), as áreas demarcadas (A, B, C e D) representam respectivamente áreas endêmicas para:",
+                category: "Blastomicose e Brotação Larga",
+                statement: "Questão 4\nEnunciado:\nUm dermatologista faz o atendimento de um paciente com 51 anos de idade que apresenta uma lesão ulcerada, eritematosa, com bordos elevados e centro necrótico (figura Q4A – caderno de figuras). A lesão teve início há aproximadamente 2 meses, e o paciente não relata nenhuma outra alteração importante. O médico então faz uma biópsia da lesão e o resultado da análise histopatológica está apresentado nas figuras Q4B e Q4C (caderno de figuras). Tendo em vista o resultado do exame histopatológico, o diagnóstico MAIS PROVÁVEL É:",
                 options: [
-                    "A. A= Histoplasma capsulatum var. capsulatum; B=Coccidioides spp.; C= Paracoccidioides spp.; D=Blastomyces dermatitidis.",
-                    "B. A=Coccidioides spp.; B=Paracoccidioides spp.; C=Histoplasma capsulatum var. capsulatum; D=Blastomyces dermatitidis.",
-                    "C. A=Blastomyces dermatitidis; B=Paracoccidioides spp.; C=Histoplasma capsulatum var. capsulatum; D=Coccidioides spp.",
-                    "D. A=Histoplasma capsulatum var. capsulatum; B= Coccidioides spp.; C=Blastomyces dermatitidis; D= Paracoccidioides spp.",
-                    "E. A=Paracoccidioides spp.; B=Coccidioides spp.; C=Blastomyces dermatitidis; D= Histoplasma capsulatum var. capsulatum."
+                    "A. Dermatofitose.",
+                    "B. Pitiríase versicolor.",
+                    "C. Blastomicose.",
+                    "D. Paracoccidioidomicose.",
+                    "E. Coccidioidomicose."
                 ],
-                correct: 3,
-                context: "<b>Justificativa:</b> A distribuição geográfica global dos fungos dimórficos corresponde a:<br>• A: Histoplasma capsulatum var. capsulatum (vales dos rios Ohio e Mississippi).<br>• B: Coccidioides spp. (regiões áridas do sudoeste dos EUA, México e Caatinga brasileira).<br>• C: Blastomyces dermatitidis (leste da América do Norte, Grandes Lagos).<br>• D: Paracoccidioides spp. (restrito à América Latina/América do Sul)."
+                correct: 2,
+                context: "<b>Justificativa da alternativa correta:</b><br>A lesão cutânea granulomatosa ulcerada acompanhada de achados histopatológicos que evidenciam leveduras grandes com brotamento único de base larga (broad-based budding) é a característica marcante do Blastomyces dermatitidis.<br><br><b>Análise das incorretas:</b><br>• A e B: Micoses superficiais (dermatofitose e pitiríase versicolor) não produzem lesões profundas ulceradas.<br>• D (Paracoccidioidomicose): Apresenta leveduras com brotamentos múltiplos de base estreita ('roda de leme').<br>• E (Coccidioidomicose): O achado tecidual é a presençar de esférulas contendo endósporos."
             },
             {
                 num: 5,
-                category: "Contaminação em Cultura de Escarro",
-                statement: "Questão 5\nEnunciado:\nUm paciente com 59 anos de idade, sexo masculino, é atendido em um hospital com queixa de dores nas costas, febre nos últimos dias e falta de ar. Ao ser examinado, o médico nota aumento da frequência respiratória, presença de estertores na ausculta pulmonar, e temperatura de 38,5ºC. O RX de tórax mostra infiltrado pulmonar difuso, afetando ambos os pulmões (lobos inferiores) e região perihilar. O paciente é então internado para tratamento (início de antibacteriano de amplo espectro) e investigação diagnóstica. É coletada uma amostra de escarro induzido e enviada para análise microbiológica (isolamento/cultura). Nos dias subsequentes, apesar do tratamento não há melhora, e são coletadas novas amostras de escarro induzido, que são enviados para análise microbiológica (isolamento/cultura). Em todas as amostras de escarro obtidas, houve crescimento de fungo filamentoso (bolor) em amostras incubadas a 25ºC e a 37ºC. No caderno de figuras estão imagens representativas das estruturas reprodutivas dos micro-organismos isolados em cada uma das mostras de escarro induzido (figuras 5A a 5D). Após a análise dos resultados É POSSÍVEL AFIRMAR QUE:",
+                category: "Diagnóstico Micológico de Escarro",
+                statement: "Questão 5\nEnunciado:\nUm paciente com 59 anos de idade, sexo masculino, é atendido em um hospital com queixa de dores nas costas, febre nos últimos dias e falta de ar. Ao ser examinado, o médico nota aumento da frequência respiratória, presença de estertores na ausculta pulmonar, e temperatura de 38,5ºC. O RX de tórax mostra infiltrado pulmonar difuso, afetando ambos os pulmões (lobos inferiores) e região perihilar. O paciente é então internado para tratamento (início de antibacteriano de amplo espectro) e investigação diagnóstica. É coletada uma amostra de escarro induzido e enviada para análise microbiológica (isolamento/cultura). Nos dias subsequentes, apesar do tratamento não há melhora, e são coletadas novas amostras de escarro induzido, que são enviados para análise microbiológica (isolamento/cultura). Em todas as amostras de escarro obtidas, houve crescimento de fungo filamentoso (bolor) em amostras incubadas a 25ºC e a 37ºC. No caderno de figuras estão imagens representativas das estruturas reprodutivas dos micro-organismos isolados em cada uma das mostras de escarro induzido (figuras Q5A a Q5D-Caderno de figuras). Após a análise dos resultados É POSSÍVEL AFIRMAR QUE:",
                 options: [
-                    "A. Não é possível estabelecer o diagnóstico definitivo com os dados apresentados.",
+                    "A. Trata-se de um caso de mucormicose pulmonar angioinvasiva.",
                     "B. Trata-se de um caso de coinfeção com diferentes fungos oportunistas filamentosos.",
-                    "C. Trata-se de um caso de mucormicose pulmonar angioinvasiva.",
-                    "D. Trata-se de um caso de aspergilose pulmonar invasiva.",
-                    "E. Trata-se de um caso de pneumocistose."
+                    "C. Não é possível estabelecer o diagnóstico definitivo com os dados apresentados.",
+                    "D. Trata-se de um caso de pneumocistose.",
+                    "E. Trata-se de um caso de aspergilose pulmonar invasiva."
                 ],
-                correct: 0,
-                context: "<b>Justificativa:</b> O escarro é uma amostra respiratória não estéril sujeita a contaminações por esporos ambientais. O simples isolamento de fungos filamentosos em escarro, na ausência de comprovação histopatológica de invasão tecidual (biópsia), impede o diagnóstico definitivo de doença fúngica invasiva.<br><br><b>Análise das incorretas:</b> B, C e D atribuem erroneamente valor definitivo apenas com isolamento em escarro. Pneumocystis jirovecii (E) não cresce como bolor em cultura convencional."
+                correct: 2,
+                context: "<b>Justificativa da alternativa correta:</b><br>O escarro é uma amostra não estéril sujeita a contaminações por esporos ambientais. A demonstração do crescimento de bolores em isolado de escarro, sem a realização de uma biópsia pulmonar com histopatológico que comprove invasão tecidual humana, impede o diagnóstico definitivo de micose invasiva.<br><br><b>Análise das incorretas:</b><br>• A, B e E: Afirmar etiologia específica sem demonstração histopatológica de invasão tecidual parenquimatosa/vascular leva ao risco de erro por contaminação ambiental.<br>• D (Pneumocistose): O P. jirovecii não cresce em meios de cultura convencionais."
             },
             {
                 num: 6,
                 category: "Coccidioidomicose e Exposição Árida",
-                statement: "Questão 6\nEnunciado:\nRoverson, 22 anos, procura atendimento médico com queixa de que na última semana tem se sentido indisposto, sem apetite, com febre e tosse. Além dos sintomas descritos, relata o aparecimento de diversas lesões (pruriginosas) em todo corpo (figura 6A – caderno de figuras), com início há dois dias. Ao ser questionado, Roverson diz que os sintomas tiveram início após 3 dias de chegar de um “rally” realizado no interior do Ceará. O médico então solicita alguns exames laboratoriais, incluindo exame direto de escarro induzido (resultado apresentado na figura 6B – caderno de figuras). Tendo em vista o histórico, características clínicas e resultado do exame direto, É POSSÍVEL AFIRMAR QUE:",
+                statement: "Questão 6\nEnunciado:\nRoverson, 22 anos, procura atendimento médico com queixa de que na última semana tem se sentido indisposto, sem apetite, com febre e tosse. Além dos sintomas descritos, relata o aparecimento de diversas lesões (pruriginosas) em todo corpo (figura Q6A – caderno de figuras), com início há dois dias. Ao ser questionado, Roverson diz que os sintomas tiveram início após 3 dias de chegar de um “rally” realizado no interior do Ceará. O médico então solicita alguns exames laboratoriais, incluindo exame direto de escarro induzido (resultado apresentado na figura Q6B – caderno de figuras) e cultura microbiológica. Tendo em vista o histórico, características clínicas e resultado do exame direto, É POSSÍVEL AFIRMAR QUE:",
                 options: [
-                    "A. Trata-se de um caso de Coccidioidomicose.",
-                    "B. Trata-se de um caso de Criptococose.",
-                    "C. Trata-se de um caso de Paracoccidioidomicose.",
-                    "D. Trata-se de um caso de Blastomicose.",
-                    "E. Trata-se de um caso de Candidiase."
+                    "A. Trata-se de um caso de Criptococose.",
+                    "B. Trata-se de um caso de Paracoccidioidomicose.",
+                    "C. Trata-se de um caso de Blastomicose.",
+                    "D. Trata-se de um caso de Candidíase.",
+                    "E. Trata-se de um caso de Coccidioidomicose."
                 ],
-                correct: 0,
-                context: "<b>Justificativa:</b> A viagem e exposição intensa à poeira em áreas áridas e semiáridas (sertão do Ceará), seguida de síndrome febril/respiratória aguda, manifestações cutâneas e achado de esférulas no exame direto, conformam o diagnóstico clássico de Coccidioidomicose."
+                correct: 4,
+                context: "<b>Justificativa da alternativa correta:</b><br>A viagem para área árida do Nordeste (interior do Ceará) com exposição intensa à poeira de solo (rally) seguida de síndrome respiratória/cutânea aguda e observação de esférulas no exame direto é o cenário clássico da Coccidioidomicose.<br><br><b>Análise das incorretas:</b><br>• A, B, C e D: Nenhuma destas infecções possui a correlação epidemiológica do Nordeste semiárido (Caatinga do Ceará) aliada ao achado de esférulas repletas de endósporos ao exame direto."
             },
             {
                 num: 7,
+                category: "Pneumocistose e Lavado Broncoalveolar",
+                statement: "Questão 7\nEnunciado:\nUm paciente diagnosticado há 5 anos com infecção por HIV procura atendimento médico com queixa de tosse e febre nas duas últimas semanas. Ele relata que não tem seguido o tratamento antirretroviral de forma adequada, e que nos últimos meses, tem perdido peso. Traz um exame de sangue realizado que mostra número de linfócitos TCD4+ de 250 células/mm3 de sangue. O médico então solicita um Raio X de tórax que mostra um infiltrado intersticial difuso em ambos os pulmões com predomínio nos lobos inferiores e Peri-hilar (FIGURA Q7A-Caderno de figuras). Realiza também uma broncoscopia, com coleta de lavado bronco alveolar que envia para exame direto (FIGURA Q7B-Caderno de figuras) e cultura microbiológica (FIGURAS Q7C e Q7D-Caderno de figuras). Após avaliar os resultados dos exames é CORRETO AFIRMAR QUE:",
+                options: [
+                    "A. A doença em questão é causada por um fungo termo dimórfico (Histoplasma capsulatum), uma vez que no exame direto apresenta-se na forma de leveduras e na cultura apresenta-se como fungo filamentoso, produtor de conídios.",
+                    "B. A doença é causada por Pneumocystis jirovecii, fato demonstrado pelo exame direto, onde é possível observar as estruturas características desse fungo, devendo-se desconsiderar o achado da cultura.",
+                    "C. A doença é causada por um fungo do gênero Aspergillus spp., fato demonstrado no resultado da cultura microbiológica onde é possível observar a estrutura reprodutiva característica desse gênero de fungos.",
+                    "D. Trata-se provavelmente de uma coinfeção causada por duas espécies diferentes de fungos oportunistas. Fato demonstrado pelos resultados obtidos no exame direto e na cultura microbiológica.",
+                    "E. É impossível determinar a causa da doença com os exames realizados, uma vez que os resultados do exame direto e de cultura microbiológica apresentam resultados conflitantes."
+                ],
+                correct: 1,
+                context: "<b>Justificativa da alternativa correta:</b><br>O Pneumocystis jirovecii é um fungo não cultivável in vitro em meios de rotina. O diagnóstico é firmado exclusivamente pelo exame microscópico direto do lavado broncoalveolar. Eventual crescimento em cultura reflete contaminação do ambiente e deve ser desconsiderado.<br><br><b>Análise das incorretas:</b><br>• A, C, D e E: Ignoram o fato essencial de que o P. jirovecii não pode ser cultivado nos meios microbiológicos padrão, sendo diagnosticado pela identificação microscópica direta."
+            },
+            {
+                num: 8,
+                category: "Mucormicose e Hifas Cenocíticas",
+                statement: "Questão 8\nEnunciado:\nEm relação à forma de diagnóstico das mucormicoses é CORRETO afirmar que:",
+                options: [
+                    "A. O exame direto de amostras do raspado de lesões, com observação de hifas hialinas, septadas é suficiente para o diagnóstico.",
+                    "B. No exame histopatológico das lesões são observadas hifas cenocíticas, hialinas, de aparência irregular com ramificações em ângulo reto.",
+                    "C. O diagnóstico deve ser realizado por meio da cultura e isolamento do fungo em meios de cultura seletivos (Sabouraud com adição de Cicloheximida para evitar o crescimento de fungos saprófitas).",
+                    "D. A detecção de antígenos circulantes por testes imunoenzimáticos (ELISA) ou do material genético do fungo por técnicas de biologia molecular é considerado o padrão ouro de diagnóstico.",
+                    "E. Para confirmação diagnóstica é necessária a demonstração de dimorfismo térmico, com cultivo do fungo a temperatura ambiente e à 37ºC."
+                ],
+                correct: 1,
+                context: "<b>Justificativa da alternativa correta:</b><br>O achado morfológico patognomônico dos fungos da ordem Mucorales no exame histopatológico é a presença de hifas hialinas, largas, desprovidas de septos (cenocíticas) e com ramificações em ângulos retos (90°).<br><br><b>Análise das incorretas:</b><br>• A: As hifas na mucormicose são não septadas (cenocíticas).<br>• C: A cicloheximida inibe o crescimento de Mucorales.<br>• D: O padrão-ouro é a demonstração histopatológica de invasão tecidual/vascular.<br>• E: Os agentes de mucormicose não são fungos termodimórficos."
+            },
+            {
+                num: 9,
                 category: "Biologia do Pneumocystis jirovecii",
-                statement: "Questão 7\nEnunciado:\nA infecção por alguns fungos oportunistas tem ganhado grande relevância nos últimos anos, em decorrência do aumento do número de indivíduos que apresentam alguma forma de imunossupressão/imunodeficiência. Em particular infecções fúngicas em indivíduos com HIV/AIDS, infecções pelo fungo Pneumocystis jirovecii é de particular importância. Em relação a esse micro-organismo, avalie as afirmações a seguir:\nI - Apresenta um ciclo de vida que inclui uma forma com reprodução assexuada (formas tróficas) e uma forma com reprodução sexuada (formação de cistos).\nII - É um fungo termodimórfico, que nos tecidos do hospedeiro (37ºC) apresenta-se na forma de leveduras (forma trófica) e à temperatura ambiente (25ºC) apresenta-se na forma de cistos.\nIII - Em geral manifesta-se como infecção respiratória (pneumonia intersticial), mas em casos raros pode apresentar uma forma disseminada.\nIV – Inicialmente foi classificado como um tipo de protozoário, mas análise moleculares permitiram sua identificação como fungo.\nV – Além de afetar indivíduos com HIV/AIDS, é um dos principais fungos oportunistas que afetam indivíduos com diabetes não-controlada/cetoacidose.\n\nApós a análise, é POSSÍVEL AFIRMAR QUE:",
+                statement: "Questão 9\nEnunciado:\nA infecção por alguns fungos oportunistas tem ganhado grande relevância nos últimos anos, em decorrência do aumento do número de indivíduos que apresentam alguma forma de imunossupressão/imunodeficiência. Em particular infecções fúngicas em indivíduos com HIV/AIDS, infecções pelo fungo Pneumocystis jirovecii é de particular importância. Em relação a esse micro-organismo, avalie as afirmações a seguir:\nI - Apresenta um ciclo de vida que inclui uma forma com reprodução assexuada (formas tróficas) e uma forma com reprodução sexuada (formação de cistos).\nII - É um fungo termodimórfico, que nos tecidos do hospedeiro (37ºC) apresenta-se na forma de leveduras (forma trófica) e à temperatura ambiente (25ºC) apresenta-se na forma de cistos.\nIII - Em geral manifesta-se como infecção respiratória (pneumonia interstitial), mas em casos raros pode apresentar uma forma disseminada.\nIV - Inicialmente foi classificado como um tipo de protozoário, mas análise moleculares permitiram sua identificação como fungo.\nV - Além de afetar indivíduos com HIV/AIDS, é um dos principais fungos oportunistas que afetam indivíduos com diabetes não-controlada/cetoacidose.\nApós a análise, é POSSÍVEL AFIRMAR QUE:",
                 options: [
                     "A. Apenas as afirmações II, IV e V são corretas.",
                     "B. Apenas as afirmações I, II e V são corretas.",
@@ -1603,208 +1631,222 @@
                     "E. Todas as afirmações são CORRETAS."
                 ],
                 correct: 3,
-                context: "<b>Justificativa:</b> Estão corretas I (ciclo com trofozoítos assexuados e cistos sexuados), III (causa pneumonia intersticial) e IV (reclassificado geneticamente como fungo).<br><br><b>Análise das incorretas:</b> II está incorreta pois P. jirovecii não é um fungo dimórfico térmico. V está incorreta pois a cetoacidose diabética é o fator predisponente clássico para Mucormicose."
-            },
-            {
-                num: 8,
-                category: "Histoplasmose e Reservatórios (Guano)",
-                statement: "Questão 8\nEnunciado:\nCatarina, 24 anos, é atendida em uma unidade de Pronto Atendimento com queixa de febre, dores musculares, dor de cabeça, tosse e falta de ar. Ela relata que os sintomas tiveram início há aproximadamente 6 dias. No exame físico o médico observa aumento de frequência respiratória, ruídos na ausculta pulmonar e temperatura de 39,2ºC. O raio X de tórax mostrou lesões intersticiais difusas em ambos os pulmões, com acometimento de lobos inferiores e região de hilo pulmonar. Foi coletado escarro, e enviado para o laboratório para exame direto e cultura microbiológica. O exame direto revelou a presença de células mononucleares contendo no citoplasma inúmeros micro-organismos unicelulares, permitindo a definição do diagnóstico de Histoplasmose aguda. Ao tentar identificar a forma de infecção, Catarina relata que é uma entusiasta de atividades ao ar-livre, elencando uma série de atividades realizadas em uma viagem de férias ao Nordeste do Brasil. Dentre as atividades realizadas por Catarina relacionadas abaixo, assinale aquela que provavelmente ocasionou a infecção.",
-                options: [
-                    "A. Trilhas no meio de vegetação de Caatinga, tendo se ferido diversas vezes com os espinhos das plantas da região;",
-                    "B. Praticado ciclismo em trilhas, em que lembra ter aspirado muita poeira em alguns momentos.",
-                    "C. Visita a uma caverna na qual havia morcegos;",
-                    "D. Praticado rapel em uma cachoeira, tendo também se ferido levemente com uma pedra;",
-                    "E. Participado de um festival regional no qual ingeriu alguns preparos com leite de cabra."
-                ],
-                correct: 2,
-                context: "<b>Justificativa:</b> O Histoplasma capsulatum cresce em solos férteis enriquecidos com excrementos de morcegos (guano) ou fezes de aves. A exploração de cavernas habitadas por morcegos ('doença dos espeleólogos') é a atividade epidemiológica de risco clássica para histoplasmose pulmonar aguda."
-            },
-            {
-                num: 9,
-                category: "Aspergiloma intracavitário",
-                statement: "Questão 9\nEnunciado:\nSr. José Francisco, 57 anos, retorna à consulta médica em um ambulatório de pneumologia após 3 meses, para acompanhamento de tratamento realizado para tuberculose secundária. Ele relata que ainda sente falta de ar, mas que sua tosse tem apresentado melhora. Traz consigo exames de imagem realizados na semana anterior à consulta. Ao examinar as imagens, o médico nota que ambos os pulmões apresentam extensas áreas de fibrose e diversas cavidades (que já haviam anteriormente sido identificadas quando do diagnóstico da tuberculose), mas observa o aparecimento de uma nova estrutura em uma das cavidades (setas na imagem 9 – caderno de figuras). Tendo em vista o histórico clínico do paciente e o resultado do exame de imagem, assinale abaixo a alternativa que contemple o diagnóstico MAIS PROVÁVEL para o achado atual no exame de imagem.",
-                options: [
-                    "A. Aspergilose pulmonar invasiva.",
-                    "B. Aspergilose pulmonar crônica necrotizante.",
-                    "C. Aspergiloma",
-                    "D. Mucormicose pulmonar angioinvasiva",
-                    "E. Paracoccidioidomicose – Forma crônica."
-                ],
-                correct: 2,
-                context: "<b>Justificativa:</b> O aparecimento de uma massa fúngica (fungus ball) colonizando o interior de uma cavidade pulmonar pré-existente (sequela de tuberculose) é a definição radiológica e clínica de Aspergiloma.<br><br><b>Análise das incorretas:</b> A, B e D implicam quadros parenquimatosos invasivos e destrutivos graves em imunossuprimidos, divergindo da massa intracavitária isolada."
+                context: "<b>Justificativa da alternativa correta:</b><br>Estão corretas as afirmativas I (ciclo com trófico assexuado e cístico sexuado), III (causa pneumonia intersticial e raramente cursa com disseminação extrapulmonar) e IV (históricamente tido como protozoário até ser reclassificado como fungo).<br><br><b>Análise das incorretas:</b><br>• II: P. jirovecii não é um fungo termodimórfico.<br>• V: O fungo associado à cetoacidose diabética pertence à ordem Mucorales (mucormicose)."
             },
             {
                 num: 10,
-                category: "Blastomicose e Brotação de Base Larga",
-                statement: "Questão 10\nEnunciado:\nUm dermatologista faz o atendimento de um paciente com 51 anos de idade que apresenta uma lesão ulcerada, eritematosa, com bordos elevados e centro necrótico (figura 10A – caderno de figuras). A lesão teve início há aproximadamente 2 meses, e o paciente não relata nenhuma outra alteração importante. O médico então faz uma biópsia da lesão e o resultado da análise histopatológica está apresentado nas figuras 10B e 10 C (caderno de figuras). Tendo em vista o resultado do exame histopatológico, o diagnóstico MAIS PROVÁVEL É:",
+                category: "Sífilis e Estágios Clínicos",
+                statement: "Questão 10\nEnunciado:\nA sífilis é uma doença que pode apresentar diversas manifestações clínicas (por esse motivo é chamada de “grande imitadora”) e pode “evoluir em três fases” classificadas em: sífilis primária, sífilis secundária e sífilis terciária. Em relação a essa classificação é INCORRETO afirmar que:",
                 options: [
-                    "A. Ptiríase versicolor.",
-                    "B. Blastomicose.",
-                    "C. Paracoccidioidomicose.",
-                    "D. Dermatofitose.",
-                    "E. Coccidioidomicose."
+                    "A. A sífilis secundária é caracterizada pelo aparecimento de lesões de pele generalizadas (exantema), que podem acometer as palmas das mãos e as plantas dos pés e que apresentam resolução espontânea mesmo sem tratamento.",
+                    "B. A transmissão do agente etiológico da sífilis pode ocorrer em todas as fases, mas ocorre predominantemente durante as fases iniciais, ou seja, nas formas primárias e secundárias nas quais há maior número de micro-organismos circulantes.",
+                    "C. A classificação acima é baseada em manifestações clínicas que ocorrem após a reexposição (reinfecção) sucessiva ao agente etiológico. Ou seja, primária quando o paciente é infectado pela primeira vez, secundária em uma segunda exposição e terciária nas infecções subsequentes.",
+                    "D. A sífilis geralmente é diagnosticada com o uso de testes sorológicos em decorrência da dificuldade em isolar o seu agente etiológico. O diagnóstico normalmente é feito com o uso de testes não-treponêmicos, seguidos de testes treponêmicos para confirmação.",
+                    "E. A sífilis terciária pode apresentar diversas manifestações clínicas que incluem uma forma denominada de tardia/terciária benigna (goma sifilítica), manifestações cardiovasculares ou manifestações neurológicas (neurosífilis)."
                 ],
-                correct: 1,
-                context: "<b>Justificativa:</b> Lesão cutânea granulomatosa/ulcerada cujo exame histopatológico revela leveduras grandes com brotamento único de base larga (broad-based budding) é característica de Blastomyces dermatitidis.<br><br><b>Análise das incorretas:</b> Paracoccidioidomicose (C) apresenta brotamentos múltiplos de base estreita ('roda de leme'). Coccidioidomicose (E) apresenta esférulas com endósporos."
+                correct: 2,
+                context: "<b>Justificativa da alternativa correta:</b><br>A alternativa C é a INCORRETA (solicitada). As fases primária, secundária e terciária representam estágios da história natural de uma única infecção contínua não tratada por Treponema pallidum, e não reinfecções sucessivas.<br><br><b>Análise das demais (corretas):</b><br>• A, B, D e E descrevem adequadamente o exantema palmo-plantar secundário, a maior transmissibilidade nas fases iniciais, o diagnóstico sorológico com testes não-treponêmicos e treponêmicos, e as complicações terciárias."
             },
             {
                 num: 11,
-                category: "Imunidade e Fatores de Risco Fúngicos",
-                statement: "Questão 11\nEnunciado:\nPacientes que apresentam imunodeficiências afetando mecanismos efetores distintos do sistema imunológico, em geral, apresentam maior suscetibilidade a determinados tipos de agentes infecciosos de natureza fúngica (fungos filamentosos ou leveduras). Dentre as alternativas abaixo, assinale aquela que descreve agentes MAIS PREVALENTES entre indivíduos que apresentam NEUTROPENIA (1) ou que apresentam DEFICIÊNCIA DE LINFÓCITOS T CD4+ (2), respectivamente:",
+                category: "Aspergiloma e Cavitação Sequelar",
+                statement: "Questão 11\nEnunciado:\nSr. José Francisco, 57 anos, retorna à consulta médica em um ambulatório de pneumologia após 3 meses, para acompanhamento de tratamento realizado para tuberculose secundária. Ele relata que ainda sente falta de ar, mas que sua tosse tem apresentado melhora. Traz consigo exames de imagem realizados na semana anterior à consulta. Ao examinar as imagens, o médico nota que ambos os pulmões apresentam extensas áreas de fibrose e diversas cavidades (que já haviam anteriormente sido identificadas quando do diagnóstico da tuberculose), mas observa o aparecimento de uma nova estrutura em uma das cavidades (seta na imagem Q11 – caderno de figuras). Tendo em vista o histórico clínico do paciente e o resultado do exame de imagem, assinale abaixo a alternativa que contemple o diagnóstico MAIS PROVÁVEL para o achado atual no exame de imagem.",
                 options: [
-                    "A. 1=Cryptococcus neoformans.; 2=Pneumocystis jirovecci.",
-                    "B. 1=Candida auris.; 2=Rhizopus spp.",
-                    "C. 1=Aspergillus spp; 2= Candida albicans.",
-                    "D. 1=Candida auris.; 2=Cryptococcus neoformans.",
-                    "E. 1=Aspergillus spp.; 2=Mucor spp."
+                    "A. Aspergiloma",
+                    "B. Aspergilose pulmonar crônica necrotizante.",
+                    "C. Aspergilose pulmonar invasiva.",
+                    "D. Paracoccidioidomicose – Forma crônica.",
+                    "E. Mucormicose pulmonar angioinvasiva"
                 ],
-                correct: 2,
-                context: "<b>Justificativa:</b> Os neutrófilos constituem a principal defesa contra fungos filamentosos angioinvasivos (Aspergillus spp.), tornando os neutropênicos gravemente suscetíveis à aspergilose. A imunidade celular mediada por T-CD4+ controla leveduras em mucosas, tornando sua deficiência a causa primordial de candidíase mucocutânea (Candida albicans)."
+                correct: 0,
+                context: "<b>Justificativa da alternativa correta:</b><br>O aparecimento de uma massa intracavitária (bola fúngica) no interior de uma cavidade pulmonar pré-existente (sequelar de tuberculose) é a definição de Aspergiloma.<br><br><b>Análise das incorretas:</b><br>• B e C: Aspergilose necrotizante crônica ou invasiva implicam destruição parenquimatosa tecidual ativa em imunossuprimidos.<br>• D e E: Não explicam a formação isolada do novelo fúngico dentro da cavitação tuberculosa antiga."
             },
             {
                 num: 12,
-                category: "Mucormicose e Hifas Cenocíticas",
-                statement: "Questão 12\nEnunciado:\nEm relação à forma de diagnóstico das mucormicoses é CORRETO afirmar que:",
+                category: "Vaginose por Gardnerella e Critérios de Amsel",
+                statement: "Questão 12\nEnunciado:\nUma mulher de 23 anos de idade, em consulta com sua ginecologista relata que nos últimos 5 dias tem apresentado coceira na região genital e notado a presença de um corrimento vaginal anormal. Ela nega outros sintomas. Ao realizar o exame ginecológico, a médica nota a presença de secreção branco/acinzentada recobrindo a cérvices e as paredes da vagina (Figura Q12A – caderno de figuras), com pH de 5,1 e com odor de peixe. O exame da secreção após adição de solução de KOH (a 10%-\"whiff test\") resultou na emissão de odor intenso de \"peixe podre\". O exame direto da secreção (em salina) por microscopia está mostrado na figura Q12B (Caderno de figuras). Tendo em vista essas características o diagnóstico é:",
                 options: [
-                    "A. O diagnóstico deve ser realizado por meio da cultura e isolamento do fungo em meios de cultura seletivos (Sabouraud com adição de Cicloheximida para evitar o crescimento de fungos saprófitas).",
-                    "B. A detecção de antígenos circulantes por testes imunoenzimáticos (ELISA) ou do material genético do fungo por técnicas de biologia molecular é considerado o padrão ouro de diagnóstico.",
-                    "C. O exame direto de amostras do raspado de lesões, com observação de hifas hialinas, septadas é suficiente para o diagnóstico.",
-                    "D. Para confirmação diagnóstica é necessária a demonstração de dimorfismo térmico, com cultivo do fungo a temperatura ambiente e à 37ºC.",
-                    "E. No exame histopatológico das lesões são observadas hifas cenocíticas, hialinas, de aparência irregular com ramificações em ângulo reto."
+                    "A. Cervicite por Neisseria gonorrhoeae.",
+                    "B. Cervicite por Mycoplasma genitalium",
+                    "C. Vaginose por Gardnerella vaginalis",
+                    "D. Vaginose por Trichomonas vaginalis",
+                    "E. Cervicite por Chlamydia trachomatis"
                 ],
-                correct: 4,
-                context: "<b>Justificativa:</b> O marcador histopatológico fundamental da mucormicose é a presença de hifas hialinas largas, sem septos (cenocíticas), de contorno irregular e que se ramificam em ângulos retos (90°).<br><br><b>Análise das incorretas:</b> A cicloheximida (A) inibe o crescimento dos fungos da ordem Mucorales. As hifas dos agentes de mucormicose são não septadas (C)."
+                correct: 2,
+                context: "<b>Justificativa da alternativa correta:</b><br>O quadro atende aos critérios de Amsel para Vaginose Bacteriana: corrimento homogêneo fluido, pH vaginal > 4,5 (5,1), teste de odor (whiff test) positivo e presença de clue cells (células-guia) ao exame direto.<br><br><b>Análise das incorretas:</b><br>• A, B e E: São agentes de cervicite mucopurulenta (infecção cervical).<br>• D (Trichomonas vaginalis): Apresenta corrimento bolhoso, amarelado/esverdeado e protozoários flagelados móveis."
             },
             {
                 num: 13,
-                category: "Coccidioidomicose e Biogeografia",
-                statement: "Questão 13\nEnunciado:\nEm relação ao Coccidioides spp. é CORRETO afirmar que:",
+                category: "Cancroide (Haemophilus ducreyi)",
+                statement: "Questão 13\nEnunciado:\nUm homem de 22 anos vai a uma consulta médica com queixa de aparecimento de lesão no pênis. Relata que a lesão apareceu há mais de um mês. O paciente relata que a lesão é bastante dolorida, e que também notou o aparecimento de inchaço doloroso na virilha. No exame clínico o médico nota uma úlcera no corpo do pênis. A lesão tem aproximadamente 2,0 cm de diâmetro, com bordas elevadas, moles e irregulares, e com fundo granuloso, com presença de exsudato purulento. Além disso, encontra aumento importante de linfonodos inguinais (somente lado direito). Tendo em vista o quadro clínico, o DIAGNÓSTICO MAIS PROVÁVEL é:",
                 options: [
-                    "A. É altamente infectante, e pode ser transmitida de pessoa a pessoa. Dessa forma, a cultura e isolamento devem ser feitos em laboratórios de nível NB3.",
-                    "B. É um fungo endêmico, cuja transmissão ocorre normalmente em áreas desérticas e semi-áridas da América do Norte e América do Sul.",
-                    "C. É um fungo dimórfico com duas espécies descritas: Coccidioides immitis e Coccidioides brasiliensis.",
-                    "D. A doença causada por esse fungo pode apresentar manifestações clínicas diversas, mas o agente infeccioso apresenta tropismo preferencial para o Sistema Nervoso Central.",
-                    "E. Ao contrário dos fungos termodimórficos clássicos, o agente causador pode ser encontrado nos tecidos na forma filamentosa, como artroconídios com formato de barril."
+                    "A. Gonorreia (causada por Neisseria gonorrhoeae).",
+                    "B. Linfogranuloma venéreo (causado por Chlamydia trachomatis).",
+                    "C. Sífilis primária (causada por Treponema pallidum).",
+                    "D. Cancroide (causado por Haemophilus ducreyi).",
+                    "E. Granuloma inguinal (causado por Klebsiella granulomatis)."
                 ],
-                correct: 1,
-                context: "<b>Justificativa:</b> Coccidioides spp. (C. immitis e C. posadasii) é um fungo dimórfico endêmico das zonas áridas e semiáridas do continente americano.<br><br><b>Análise das incorretas:</b> Não há transmissão pessoa a pessoa (A). Não existe C. brasiliensis (C). No tecido assume a forma de esférula com endósporos (E)."
+                correct: 3,
+                context: "<b>Justificativa da alternativa correta:</b><br>O cancroide (cancro mole) manifesta-se por úlcera genital dolorosa, com fundo necrótico/purulento e bordas moles/irregulares, acompanhada de linfadenopatia inguinal dolorosa com tendência a supuração (bubão).<br><br><b>Análise das incorretas:</b><br>• A (Gonorreia): Manifesta-se como uretrite purulenta.<br>• B e E: Linfogranuloma venéreo e donovanose cursam com lesões indolores.<br>• C (Sífilis primária): O cancro duro é estritamente indolor, de bordas endurecidas e fundo limpo."
             },
             {
                 num: 14,
-                category: "Mucormicose e Cetoacidose / COVID-19",
-                statement: "Questão 14\nEnunciado:\nDurante a pandemia de Covid-19 foram relatados diversos casos de pacientes internados que apresentaram infecção grave causada por fungos, a MUCORMICOSE. Analise as afirmações a seguir:\nI – A associação da mucormicose com os casos de COVID-19 tem relação direta de causalidade, uma vez que a infecção pelo SARS-CoV-2 causa imunossupressão grave, o que predispõe a infecções por fungos oportunistas.\nII – A associação de casos de mucormicose e COVID-19 pode estar relacionada ao fato de que nas duas condições existe como fator de risco aumentado a diabetes não-controlada, com cetoacidose.\nIII – Apesar de ocorrerem casos de mucormicose em pacientes com COVID-19 grave, pode-se dizer que se trata de simples coincidência (achado não relacionado e acidental), uma vez que não existe nenhuma associação possível entre as duas doenças.\nIV – A associação entre COVID-19 grave e mucormicose é direta, sendo possível afirmar que a maioria dos casos graves de COVID-19 irá em algum momento apresentar a mucormicose.\n\nApós a análise É POSSÍVEL AFIRMAR QUE:",
+                category: "Uretrite Gonocócica e Gram",
+                statement: "Questão 14\nEnunciado:\nUm homem de 29 anos procura atendimento médico com queixa de dor durante a micção (disúria), e relata que nos últimos dias tem notado a presença de secreção abundante purulenta eliminada pelo pênis. O exame físico revelou a presença de secreção mucopurulenta (coloração amarelada) eliminada pela uretra, sem lesões aparentes ou alterações testiculares ou de epidídimo. Ele admitiu ter tido, na última semana, relações sexuais casuais com 2 mulheres sem proteção. O exame direto da secreção realizado por meio da coloração de Gram está mostrado na figura Q14 (caderno de imagens).\nQual o provável agente etiológico causador dos sintomas apresentados?",
                 options: [
-                    "A. Somente as afirmações II e IV são corretas.",
-                    "B. Somente a afirmação II é correta.",
-                    "C. Somente as afirmações I e III são corretas.",
-                    "D. Somente a afirmação IV é correta.",
-                    "E. Todas as afirmações são INCORRETAS."
+                    "A. Mycoplasma genitalium",
+                    "B. Neisseria gonorrhoeae",
+                    "C. Treponema pallidum",
+                    "D. Chlamydia trachomatis",
+                    "E. Klebsiella granulomatis"
                 ],
                 correct: 1,
-                context: "<b>Justificativa:</b> A cetoacidose diabética (potencializada pelo uso de corticosteroides no tratamento do COVID-19 grave) é o principal fator metabolicamente predisponente para o desenvolvimento de mucormicose."
+                context: "<b>Justificativa da alternativa correta:</b><br>A apresentação clínica de uretrite purulenta aguda acompanhada da visualização microscópica (Gram) de diplococos Gram-negativos intracelulares é patognomônica da infecção por Neisseria gonorrhoeae.<br><br><b>Análise das incorretas:</b><br>• A e D: Cusam com uretrite não gonocócica, caracterizada por secreção mais hialina/escassa e sem diplococos Gram-negativos.<br>• C e E: Agentes de úlceras genitais (sífilis e donovanose)."
             },
             {
                 num: 15,
-                category: "Fungos Dimórficos e Transmissão Respiratória",
-                statement: "Questão 15\nEnunciado:\nEm relação às micoses sistêmicas (profundas) causadas por fungos dimórficos analise as afirmações a seguir:\nI - A maioria é transmitida por via respiratória.\nII - São caracterizadas por serem infecções oportunistas, embora esporadicamente possam infectar indivíduos imunocompetentes.\nIII - Os fungos dimórficos recebem essa denominação pois podem ser encontrados tanto na forma de hifas, quanto na forma de leveduras nos tecidos do hospedeiro.\nIV - Apresentam em geral bom prognóstico, com resolução espontânea (mesmo sem tratamento) na maioria dos casos.\n\nSão CORRETAS AS AFIRMAÇÕES:",
+                category: "Micromorfologia e Fungos Demáceos",
+                statement: "Questão 15\nEnunciado:\nAnalise as imagens (figura Q15 – Caderno de imagens) representativas de estruturas fúngicas observadas em aula prática e as afirmações apresentadas a seguir relacionadas a essas imagens:\nI – Os fungos mostrados nas imagens A, C e F são exemplos de fungos demáceos/dematiáceos.\nII – Todos os fungos mostrados são exemplos de fungos cenocíticos.\nIII – Todas as imagens apresentam exemplos de fungos filamentosos.\nIV – É possível observar nas imagens a presença de hifas e das estruturas de reprodução dos fungos filamentosos, os blastoconídeos.\nV – Pelas imagens é possível afirmar que se tratam de espécies de fungo diferentes.\nApós a análise, é POSSÍVEL AFIRMAR QUE:",
                 options: [
-                    "A. Todas as afirmações são corretas.",
-                    "B. Somente a afirmação III é correta.",
-                    "C. Somente as afirmações III e IV são corretas.",
-                    "D. Somente a afirmação I é correta.",
-                    "E. Somente as afirmações I e II são corretas."
+                    "A. Todas as afirmações são CORRETAS.",
+                    "B. Apenas as afirmações II, IV e V são corretas.",
+                    "C. Apenas as afirmações I, II e V são corretas.",
+                    "D. Apenas as afirmações II, III e IV são corretas.",
+                    "E. Apenas as afirmações I, III e V são corretas."
                 ],
-                correct: 3,
-                context: "<b>Justificativa:</b> A via respiratória (inalação de propágulos ambientais) é a porta de entrada clássica para as micoses sistêmicas dimórficas.<br><br><b>Análise das incorretas:</b> II: São infecções endêmicas primárias que acometem imunocompetentes. III: Nos tecidos humanos encontram-se apenas na forma leveduriforme (ou esférulas). IV: Exigem tratamento específico na doença instalada."
+                correct: 4,
+                context: "<b>Justificativa da alternativa correta:</b><br>Estão corretas as afirmativas I (demonstram fungos escuros pigmentados/demáceos), III (são micoses causadas por estruturas filamentosas) e V (são táxons fúngicos distintos).<br><br><b>Análise das incorretas:</b><br>• II: Fungos filamentosos demáceos e dermatófitos possuem hifas septadas, não cenocíticas.<br>• IV: Os fungos filamentosos representados produzem conídios em conidióforos variados, e não exclusivamente blastoconídeos."
             },
             {
                 num: 16,
-                category: "Candida auris e Multirresistência",
-                statement: "Questão 16\nEnunciado:\nVárias espécies de Candida podem ser consideradas oportunistas, mas atualmente a espécie C. auris tem levantado preocupações. Em relação a essa espécie, analise as afirmações a seguir:\nI) Trata-se de patógeno oportunista, que faz parte da microbiota normal de nossa pele e mucosa, mas que apresenta resistência a grande parte dos antifúngicos disponíveis atualmente.\nII) Trata-se de uma espécie de Candida anteriormente desconhecida como patógeno humano, mas que adquiriu a capacidade de ser transmitida de indivíduo para indivíduo por via respiratória.\nIII) Trata-se de um patógeno oportunista, transmitido por via respiratória, encontrado em fezes de aves migratórias que espalharam essa espécie de fungo por todos os continentes.\nIV) Trata-se de uma espécie da Candida anteriormente desconhecida, e que por isso apresenta difícil diagnóstico. Embora uma vez diagnosticada responda bem a tratamentos com antifúngicos convencionais.\n\nApós a análise, É POSSÍVEL AFIRMAR QUE:",
+                category: "Cromoblastomicose e Corpúsculos Muriformes",
+                statement: "Questão 16\nEnunciado:\nDurante exame histopatológico de uma biópsia cutânea suspeita de cromomicose, o patologista observou em uma lâmina corada por HE células arredondadas, acastanhadas, de 6-12 μm de diâmetro, com parede espessa e septos transversais e longitudinais, algumas no interior de células gigantes multinucleadas. Sobre estas estruturas características, é correto afirmar:",
                 options: [
-                    "A. Somente a afirmação III é CORRETA.",
-                    "B. Somente a afirmação IV é CORRETA.",
-                    "C. Nenhuma das afirmações é CORRETA.",
-                    "D. Somente a afirmação I é CORRETA.",
-                    "E. Somente a afirmação II é CORRETA."
+                    "A. Células muriformes só são visualizadas com colorações especiais, como Ziehl-Neelsen",
+                    "B. A presença dessas estruturas exclui completamente o diagnóstico de cromomicose",
+                    "C. Estas estruturas são encontradas apenas em micoses causadas pela Fonsecaea pedrosoi",
+                    "D. São denominadas corpúsculos muriformes e são patognomônicas da cromomicose",
+                    "E. A presença de septos indica infecção mista por bactérias e fungos"
                 ],
-                correct: 2,
-                context: "<b>Justificativa:</b> Todas as afirmações contêm erros teóricos sobre a C. auris: ela não é comensal da microbiota nativa humana, não é de transmissão respiratória/aviária e é notoriamente resistente aos antifúngicos convencionais."
+                correct: 3,
+                context: "<b>Justificativa da alternativa correta:</b><br>As células acastanhadas arredondadas que se dividem por cissiparidade em múltiplos planos nos tecidos são os corpúsculos muriformes (corpos fumagóides), característicos e patognomônicos da cromoblastomicose.<br><br><b>Análise das incorretas:</b><br>• A: São visíveis em HE por possuírem pigmentação castanha de melanina própria.<br>• B: Pelo contrário, sua visualização confirma o diagnóstico.<br>• C: Podem ser produzidas por outros agentes da cromomicose (Cladophialophora carrionii, Phialophora verrucosa).<br>• E: A septação interna é a forma própria de divisão celular fúngica tecidual na cromomicose."
             },
             {
                 num: 17,
-                category: "Dermatofitose (Tinea Corporis)",
-                statement: "Questão 17\nEnunciado:\nQUADRO CLÍNICO RELATIVO ÀS QUESTÕES 17, 18 e 19: Paciente vai ao dermatologista por conta de manchas de bordas avermelhadas coalescentes que surgiram na pele do tronco há mais de 15 dias (figura questão 17 – caderno de figuras). Relata que há leve prurido e elas parecem estar se expandindo. Sua esposa apareceu com lesão semelhante há apenas 4 dias. Em relação a esse quadro clínico, responda as seguintes questões:\n\nNesse contexto de informações, e sabendo tratar-se de uma micose, qual a suspeita clínica mais pertinente?",
+                category: "Inoculação Traumática na Cromoblastomicose",
+                statement: "Questão 17\nEnunciado:\nDurante investigação de um caso de cromomicose, o paciente era incapaz de fazer um relato coerente, mas foi possível obter a informação que as lesões verrucosas na perna dele haviam aparecido há 5 anos. O exame micológico confirmou Fonsecaea pedrosoi isolada repetidamente de três coletas diferentes. Sobre o possível modo de infecção dos agentes da cromomicose, assinale a alternativa correta:",
                 options: [
-                    "A. Dermatofitose",
-                    "B. Pitiríase versicolor",
-                    "C. Esporotricose",
-                    "D. Candidíase",
-                    "E. Criptococose"
+                    "A. A infecção é sempre adquirida por contato direto com animais infectados",
+                    "B. Esses fungos vivem exclusivamente como parasitas obrigatórios de plantas vivas, jamais crescendo em matéria orgânica morta.",
+                    "C. A transmissão ocorre por inalação de esporos presentes no ar",
+                    "D. Apenas madeiras de eucalipto abrigam os agentes da cromomicose",
+                    "E. São encontrados em solo rico em matéria orgânica, plantas e madeira em decomposição, infectando por inoculação traumática"
                 ],
-                correct: 0,
-                context: "<b>Justificativa:</b> Lesões eritemato-escamosas anulares, centrifugamente expansivas e transmissíveis interpessoalmente no tronco (tinea corporis) são causadas por fungos dermatófitos."
+                correct: 4,
+                context: "<b>Justificativa da alternativa correta:</b><br>Os agentes da cromoblastomicose são fungos demáceos saprófitas do solo e vegetação. A infecção humana ocorre através de inoculação traumática na pele por farpas, espinhos ou fragmentos vegetais.<br><br><b>Análise das incorretas:</b><br>• A: Não é uma doença de transmissão zoonótica.<br>• B: São saprófitas ambientais que se desenvolvem em matéria orgânica morta.<br>• C: A via de introdução é percutânea traumática, não inalatória.<br>• D: Habitam variados tipos de solos e madeiras em decomposição."
             },
             {
                 num: 18,
-                category: "Coleta em Micoses Superficiais",
-                statement: "Questão 18\nEnunciado:\nPara se confirmar (ou descartar) a suspeita inicial, devemos fazer a coleta de material clínico e envio ao laboratório de microbiologia. Como deve ser feita essa coleta?\n\n'Punch': é um cilindro de superfície cortante que, no momento da biópsia, é girado de forma rotatória, aprofundando-se na pele e permitindo a remoção de um tecido, podendo chegar até mesmo à gordura subcutânea. A ferida resultante do procedimento é singela e pode ser suturada.",
+                category: "Tríade Clínica dos Micetomas",
+                statement: "Questão 18\nEnunciado:\nEm relação aos micetomas, assinale a alternativa que contempla todas as afirmativas corretas:\nI – Mulheres têm maior suscetibilidade genética aos eumicetomas.\nII – Tumorações nos pés com presença de grãos e supuração é característico dos eumicetomas.\nIII – A maioria dos eumicetomas evolui para cura, sendo muito raros os casos de amputação.",
                 options: [
-                    "A. Na periferia da lesão, puncionar as vesículas com uma microlanceta e coletar a secreção.",
-                    "B. A partir do centro da lesão, puncionar as vesículas",
-                    "C. No centro da lesão, coletar um fragmento de tecido com um “punch” para histopatológico",
-                    "D. Na periferia da lesão, coletar um fragmento de tecido com um “punch” para histopatológico",
-                    "E. Nenhuma das anteriores."
+                    "A. Nenhuma afirmativa está correta",
+                    "B. II e III",
+                    "C. I",
+                    "D. I e II",
+                    "E. I e III"
                 ],
-                correct: 4,
-                context: "<b>Justificativa:</b> A coleta correta para confirmação laboratorial de dermatofitoses é feita por raspado de escamas epidérmicas da borda ativa da lesão para exame micológico direto e cultura. Biópsia por punch ou punção de vesículas são desnecessárias e incorretas."
+                correct: 0,
+                context: "<b>Justificativa da alternativa correta:</b><br>Todas as três afirmativas contêm erros: a suscetibilidade é predominantemente ocupacional em homens rurais, a tríade clínica descreve micetomas em geral (tanto actinomicetomas quanto eumicetomas) e a evolução do eumicetoma é refratária com altos índices de amputação.<br><br><b>Análise das afirmativas:</b><br>• I é falsa: A predominância masculina se deve à maior exposição ocupacional a ferimentos rurais.<br>• II é falsa: A tríade (aumento de volume, fístulas e grãos) é a definição de micetoma em geral, não exclusiva da forma fúngica.<br>• III é falsa: Os eumicetomas respondem mal à medicação e frequentemente requerem amputação."
             },
             {
                 num: 19,
-                category: "Micromorfologia dos Dermatófitos",
-                statement: "Questão 19\nEnunciado:\nQual das imagens (figura 19 - caderno de figuras) é compatível com o diagnóstico mais pertinente assinalada na questão 17?",
+                category: "Lobomicose (Lacazia loboi)",
+                statement: "Questão 19\nEnunciado:\nUm lavrador de 45 anos, procedente do interior do Acre procura atendimento médico com história de 8 anos de evolução de lesões nodulares queloidiformes no pavilhão auricular direito. Essas lesões se iniciaram após trauma em circunstância vaga durante trabalho na floresta. O exame histopatológico com Grocott-Gomori revelou infiltrado granulomatoso com células fúngicas globoides de parede dupla refringente, dispostas em cadeias (figura Q19 – Caderno de imagens). Considerando as características microbiológicas do agente etiológico desta condição, assinale a alternativa CORRETA:",
                 options: [
-                    "A. Imagem A",
-                    "B. Imagem E",
-                    "C. Imagem B",
-                    "D. Imagem D",
-                    "E. Imagem C"
+                    "A. Provavelmente se trata de Cryptococcus gattii, dada a localização geográfica e os achados de brotamento em cadeia.",
+                    "B. Provavelmente se trata de uma aspergilose, com múltiplos conídeos espalhados pela lâmina.",
+                    "C. Especialmente pelo dado epidemiológico (interior do Acre), provavelmente se trata de Paracoccidioides brasiliensis, um importante fungo causador de micoses subcutâneas.",
+                    "D. O provável agente etiológico, dada a questão regional, a clínica e os achados no histopatológico é a Lacazia loboi.",
+                    "E. Nenhuma das outras alternativas desta questão está correta."
                 ],
-                correct: 0,
-                context: "<b>Justificativa:</b> A Imagem A evidencia hifas hialinas septadas e conídeos característicos dos fungos dermatófitos (Trichophyton, Microsporum ou Epidermophyton)."
+                correct: 3,
+                context: "<b>Justificativa da alternativa correta:</b><br>A ocorrência na Região Amazônica (Acre), a presença de lesões cutâneas queloidiformes e o achado histopatológico de células fúngicas arredondadas dispostas em cadeia catenulada interligadas por pontes (istmos) configuram a Lobomicose (Lacazia loboi).<br><br><b>Análise das incorretas:</b><br>• A, B e C: Cryptococcus, Aspergillus e Paracoccidioides não produzem lesões cutâneas queloidiformes crônicas dispostas em correntes de contas."
             },
             {
                 num: 20,
-                category: "Biologia e Patogenia dos Dermatófitos",
-                statement: "Questão 20\nEnunciado:\nAnalise as seguintes afirmativas e indique a alternativa que contempla todas as afirmações corretas:\nI - As dermatofitoses são uma das poucas micoses transmissíveis entre seres humanos.\nII - Se não tratadas, as lesões por dermatófitos dificilmente evoluem para comprometimento de tecidos profundos, como conjuntivo e músculos, embora possam se alastrar pela pele.\nIII - Quanto mais bem adaptado o dermatófito a uma espécie, menos processo inflamatório é induzido por ele.\nIV – Os dermatófitos são os únicos fungos causadores de onicomicoses no ser humano.",
+                category: "Dermatofitose (Tinea Corporis)",
+                statement: "Questão 20\nEnunciado:\nQUADRO CLÍNICO RELATIVO ÀS QUESTÕES 20 e 21: Paciente vai ao dermatologista por conta de manchas de bordas avermelhadas coalescentes que surgiram na pele do tronco há mais de 15 dias (figura Q20/Q21 – caderno de imagens). Relata que há leve prurido e elas parecem estar se expandindo. Sua esposa apareceu com lesão semelhante há apenas 4 dias. Em relação a esse quadro clínico, responda:\nNesse contexto de informações, e sabendo tratar-se de uma micose, qual a suspeita clínica mais pertinente?",
                 options: [
-                    "A. I, II e III",
-                    "B. II e IV",
-                    "C. I, II e IV",
-                    "D. III e IV",
-                    "E. I, III e IV"
+                    "A. Pitiríase versicolor",
+                    "B. Criptococose",
+                    "C. Esporotricose",
+                    "D. Dermatofitose",
+                    "E. Candidíase"
                 ],
-                correct: 0,
-                context: "<b>Justificativa:</b> Estão corretas as afirmativas I (espécies antropofílicas são transmissíveis), II (restritos à camada córnea da epiderme) e III (espécies antropofílicas causam menor inflamação que zoofílicas).<br><br><b>Análise da IV:</b> Incorreta pois Candida, Aspergillus e Fusarium também podem causar onicomicose."
+                correct: 3,
+                context: "<b>Justificativa da alternativa correta:</b><br>Lesões eritemato-escamosas anulares, expansivas, com bordas ativas pruriginosas no tronco (tinea corporis) contagiosas entre membros da mesma família indicam infecção por dermatófitos.<br><br><b>Análise das incorretas:</b><br>• A (Pitiríase versicolor): Cursa com máculas descamativas hipo/hiperpigmentadas sem bordas eritematosas ativas expansivas transmissíveis.<br>• B, C e E: Apresentam etiologias e lesões clínicas totalmente divergentes desse padrão anular dermatofítico interpessoal."
             },
             {
                 num: 21,
-                category: "Pitiríase Versicolor e KOH",
-                statement: "Questão 21\nEnunciado:\nUma estudante de medicina, após passar as férias na praia de Bonete, Ubatuba, desenvolveu lesões de pele arredondadas, hipopigmentadas e sem prurido. A dermatologista que a atendeu fez um rapado e clarificação com KOH. Foi observada no microscópio a imagem que pode ser observada no caderno de figuras (imersão -Figura questão 21). Podemos inferir corretamente que se trata de:",
+                category: "Coleta em Micoses Superficiais",
+                statement: "Questão 21\nEnunciado:\nPara se confirmar (ou descartar) a suspeita inicial da questão anterior, devemos fazer a coleta de material clínico e envio ao laboratório de microbiologia. Como deve ser feita essa coleta?",
                 options: [
-                    "A. Esporotricose",
-                    "B. Candidíase",
-                    "C. Criptococose",
-                    "D. Pitiríase versicolor",
-                    "E. Dermatofitose"
+                    "A. Nenhuma das outras alternativas desta questão está correta",
+                    "B. Na periferia da lesão, coletar um fragmento de tecido com um “punch” para histopatológico",
+                    "C. Na periferia da lesão, puncionar as vesículas com uma microlanceta e coletar a secreção.",
+                    "D. A partir do centro da lesão, puncionar as vesículas",
+                    "E. No centro da lesão, coletar um fragmento de tecido com um “punch” para histopatológico"
                 ],
-                correct: 3,
-                context: "<b>Justificativa:</b> Máculas hipopigmentadas assintomáticas pós-exposição solar e a observação de hifas curtas associadas a leveduras arredondadas ('espaguete com almôndegas') ao exame direto com KOH confirmam o diagnóstico de Pitiríase versicolor (Malassezia spp.)."
+                correct: 0,
+                context: "<b>Justificativa da alternativa correta:</b><br>O procedimento correto de coleta em suspeita de dermatofitose é a obtenção de raspado de escamas epidérmicas da borda ativa da lesão para exame micológico direto e cultura. A realização de biópsia por punch é inadequada e excessivamente invasiva.<br><br><b>Análise das incorretas:</b><br>• B, C, D e E: São incorretas por proporem biópsia por punch ou punção de vesículas."
             },
             {
                 num: 22,
-                category: "Malasseziases e Microbiota",
-                statement: "Questão 22\nEnunciado:\nAnalise as seguintes afirmativas e indique a alternativa que contempla todas as afirmações corretas em relação à pitiríase versicolor:\nI - As lesões pelo agente da pitiríase versicolor podem ser hipopigmentadas ou hiperpigmentadas.\nII - O agente da pitiríase versicolor é adquirido quando as pessoas entram em contato com as fontes de infecção, como materiais ricos em matéria vegetal do ambiente.\nIII – O isolamento de M. furfur a partir de material clínico é essencial para o diagnóstico, não podendo ser dispensado.\nIV - O tratamento das malassezíases costuma ser simples e fácil, resolvendo os casos na grande maioria das vezes de forma rápida.",
+                category: "Criptococose e Padrões Epidemiológicos",
+                statement: "Questão 22\nEnunciado:\nDurante a análise epidemiológica de casos de criptococose em hospital terciário, observou-se que 90% dos pacientes com C. neoformans eram HIV positivos, enquanto 70% dos casos de C. gattii ocorreram em pacientes sem comorbidades. Sobre os padrões epidemiológicos das duas espécies no Brasil, é correto afirmar:",
+                options: [
+                    "A. O C. gattii pode afetar imunocompetentes mas também pode estar associado à AIDS em áreas endêmicas",
+                    "B. Não há diferença epidemiológica entre C. neoformans e C. gattii no Brasil",
+                    "C. O C. gattii nunca causa doença em pacientes com HIV/AIDS",
+                    "D. O C. neoformans é encontrado exclusivamente em regiões urbanas",
+                    "E. O C. neoformans tem comportamento exclusivamente patogênico em imunossuprimidos"
+                ],
+                correct: 0,
+                context: "<b>Justificativa da alternativa correta:</b><br>Apesar de ser classicamente uma infecção de indivíduos imunocompetentes, o Cryptococcus gattii também infecta indivíduos imunossuprimidos (incluindo pacientes com AIDS) nas regiões epidemiologicamente endêmicas.<br><br><b>Análise das incorretas:</b><br>• B: Existem diferenças claras de nicho ecológico e hospedeiro entre ambas as espécies.<br>• C, D e E: Utilizam termos absolutistas incorretos ('nunca', 'exclusivamente')."
+            },
+            {
+                num: 23,
+                category: "Sporothrix e Dimorfismo Térmico",
+                statement: "Questão 23\nEnunciado:\nUm jardineiro de 45 anos, do interior de Minas Gerais, apresenta nódulo subcutâneo no dorso da mão direita há 2 meses, que se iniciou após ferimento com espinho de rosa. O material da biópsia foi semeadas em ágar Sabouraud e incubado a 25ºC e 37ºC. Suspeita-se de esporotricose. Sobre a característica de dimorfismo térmico do complexo Sporothrix, é correto afirmar:",
+                options: [
+                    "A. A 25ºC forma micélio com conídios dispostos em \"margarida\" e a 37ºC leveduras em forma de charuto",
+                    "B. A 25ºC apresenta-se como leveduras ovais com brotamento múltiplo",
+                    "C. A 37ºC desenvolve hifas hialinas septadas com conidióforos de esporos endógenos",
+                    "D. A conversão para fase leveduriforme ocorre exclusivamente em presença de cisteína",
+                    "E. O dimorfismo independe da temperatura, sendo determinado apenas pelo pH do meio"
+                ],
+                correct: 0,
+                context: "<b>Justificativa da alternativa correta:</b><br>A 25°C o Sporothrix desenvolve-se na forma micelial produzindo conídios em simpódio com aspecto de 'margarida' / flor. A 37°C converte-se na forma leveduriforme de aspecto em 'charuto' (cigar-shaped).<br><br><b>Análise das incorretas:</b><br>• B, C, D e E: Invertem a morfologia dependente da temperatura ou atribuem incorretamente o fator indutor do dimorfismo fúngico."
+            },
+            {
+                num: 24,
+                category: "Trichophyton indotineae e Terbinafina",
+                statement: "Questão 24\nEnunciado:\nUm homem de 40 anos, brasileiro residente em Londres, procurou atendimento dermatológico em Piracicaba (SP) em março de 2024 com lesões eritematoso-descamativas pruriginosas extensas em membros inferiores e glúteos iniciadas em janeiro. Relatava viagens frequentes para Áustria, Eslováquia, Hungria, Polônia, Escócia e Turquia em 2023. A cultura inicial cresceu T. mentagrophytes, identificado por morfologia. Foi prescrita terbinafina 500mg/dia por 14 dias sem melhora. Considerando este contexto epidemiológico e clínico, qual hipótese diagnóstica mais provável justifica a falha terapêutica?",
+                options: [
+                    "A. Diagnóstico incorreto de dermatofitose, tratando-se na verdade de dermatite de contato",
+                    "B. Resistência secundária desenvolvida por T. mentagrophytes durante o tratamento",
+                    "C. Infecção por T. indotineae resistente à terbinafina adquirida durante viagens internacionais",
+                    "D. Coinfeção bacteriana mascarando a resposta antifúngica",
+                    "E. A terbinafina não é indicada para esse tipo de patógeno (dermatófito)"
+                ],
+                correct: 2,
+                context: "<b>Justificativa da alternativa correta:</b><br>Trichophyton indotineae é um dermatófito emergente recalcitrante associado a viagens internacionais, que é frequentemente identificado morfologicamente como T. mentagrophytes, apresentando expressiva resistência genotípica à terbinafina.<br><br><b>Análise das incorretas:</b><br>• A, B, D e E: Ignoram a emergência epidemiológica do Trichophyton indotineae e o fato de que a terbinafina é a droga de primeira escolha habitual para dermatofitoses."
+            },
+            {
+                num: 25,
+                category: "Malassezia e Pitiríase Versicolor",
+                statement: "Questão 25\nEnunciado:\nAnalise as seguintes afirmativas e indique a alternativa que contempla todas as afirmações corretas em relação à pitiríase versicolor:\nI - As lesões pelo agente da pitiríase versicolor podem ser hipopigmentadas ou hiperpigmentadas.\nII - O agente da pitiríase versicolor é adquirido quando as pessoas entram em contato com as fontes de infecção, como materiais ricos em matéria vegetal do ambiente.\nIII - A mais importante espécie de malassezia relacionada ao ser humano é a M. furfur.\nIV - O tratamento das malassezíases costuma ser simples e fácil, resolvendo os casos na grande maioria das vezes de forma rápida.",
                 options: [
                     "A. Todas as afirmativas estão corretas",
                     "B. I e II",
@@ -1812,272 +1854,90 @@
                     "D. I e III",
                     "E. II"
                 ],
-                correct: 2,
-                context: "<b>Justificativa:</b> Apenas a afirmativa I está correta (as lesões variam de tonalidade).<br><br><b>Incorretas:</b> II: Malassezia é comensal da microbiota endógena. III: O cultivo não é necessário nem recomendado rotineiramente. IV: Recidivas são muito frequentes."
-            },
-            {
-                num: 23,
-                category: "Classificação das Micoses",
-                statement: "Questão 23\nEnunciado:\nSão exemplos de micoses SUPERFICIAIS, EXCETO:",
-                options: [
-                    "A. Tinea nigra",
-                    "B. Pitiríase versicolor",
-                    "C. Piedra preta",
-                    "D. Piedra branca",
-                    "E. Esporotricose"
-                ],
-                correct: 4,
-                context: "<b>Justificativa:</b> A esporotricose é uma micose subcutânea. Tinea nigra, Pitiríase versicolor e Piedras são micoses estritamente superficiais."
-            },
-            {
-                num: 24,
-                category: "Tinea Nigra e Hortaea werneckii",
-                statement: "Questão 24\nEnunciado:\nEm relação à Tinea nigra, analise as seguintes afirmativas e indique a alternativa que contempla todas as afirmações corretas:\nI – É mais comum em crianças do sexo feminino.\nII – Caracteriza-se por manchas enegrecidas de localização plantar ou palmar.\nIII – No exame direto vemos elementos leveduriformes misturados com filamentos.",
-                options: [
-                    "A. I e III",
-                    "B. II",
-                    "C. I e II",
-                    "D. Todas as afirmativas estão corretas",
-                    "E. I"
-                ],
                 correct: 3,
-                context: "<b>Justificativa:</b> Todas as afirmativas estão corretas para a infecção por Hortaea werneckii: acomete mais crianças/jovens do sexo feminino (I), manifesta-se por máculas hipercrômicas palmares/plantares (II) e revela ao exame direto com KOH hifas castanhas e células leveduriformes (III)."
-            },
-            {
-                num: 25,
-                category: "Diagnóstico Micológico Direto",
-                statement: "Questão 25\nEnunciado:\nEm relação ao diagnóstico da pitiríase versicolor, é correto afirmar:",
-                options: [
-                    "A. Devido ao fato de sua morfologia se confundir facilmente com outros agentes da microbiota, recomenda-se a realização de PCR no material do raspado.",
-                    "B. O exame direto é pouco sensível e costuma dar negativo",
-                    "C. Pacientes com a doença possuem mais de 10 leveduras por campo microscópico",
-                    "D. É fundamental a biópsia da pele para a identificação do agente",
-                    "E. Nenhuma das anteriores"
-                ],
-                correct: 2,
-                context: "<b>Justificativa:</b> O exame micológico direto é altamente sensível, e o achado abundante de leveduras (mais de 10 por campo de grande aumento) associadas a hifas curtas caracteriza a transição do fungo para a fase patogênica."
+                context: "<b>Justificativa da alternativa correta:</b><br>Estão corretas as afirmativas I (as lesões variam de cor, justificando o nome versicolor) e III (M. furfur representa a espécie historicamente mais marcante do gênero).<br><br><b>Análise das incorretas:</b><br>• II: A Malassezia é um fungo comensal da microbiota endógena da pele humana.<br>• IV: As infecções por Malassezia apresentam elevada taxa de recorrência/recidiva."
             },
             {
                 num: 26,
-                category: "Esporotricose Crônica em Idosos",
-                statement: "Questão 26\nEnunciado:\nQUADRO CLÍNICO RELATIVO ÀS QUESTÕES 26, 27 e 28: Idoso de 88 anos com demência foi levado pelos vizinhos ao PS do hospital municipal mais próximo. Ele apresentava, no braço esquerdo, úlcera que não cicatrizava há vários meses, segundo quem o trouxe (figura 26 à esquerda). Não era possível inferir sobre traumatismos no local. Uma biópsia por punção de 5 mm mostrou inflamação neutrofílica e mononuclear (macrófagos), além de numerosas leveduras (figura 26 à direita). Linfangite e envolvimento de linfonodos não estavam presentes. Cultura de tecidos levaram ao isolamento de S. schenckii em 7 dias.\n\nDiante desse quadro, indique a alternativa que faz uma análise verossímil e pertinente sobre esse contexto clínico:",
+                category: "Transmissão da Esporotricose",
+                statement: "Questão 26\nEnunciado:\nUma criança de 8 anos desenvolveu esporotricose após brincadeiras com um gato de rua infectado. Os pais questionaram o pediatra que atendeu a pobre criança sobre o risco de transmissão entre pessoas da família. Em relação a isso, é correto afirmar:",
                 options: [
-                    "A. A provável via de infecção desse fungo foi a respiratória, com a inalação de elementos fúngicos e repercussão na pele. Esse é o padrão de infecção para a esporotricose.",
-                    "B. Uma vez que o Sporothrix é facilmente encontrado como microbiota da pele, a cultura citada tem pouco valor diagnóstico.",
-                    "C. Os achados no histopatológico são morfologicamente incompatíveis com o Sporothrix schenckii, que é um bolor.",
-                    "D. A ausência de linfoadenite reforça a suspeita de esporotricose.",
-                    "E. Embora pareça estranho terem sido encontrados muitos elementos fúngicos (não é o padrão) no histopatológico, isso pode se explicar pelo tempo prolongado sem tratamento e possivelmente pela idade avançada do idoso."
+                    "A. A transmissão pessoa-pessoa é frequente através de fômites contaminados",
+                    "B. A transmissão humano-humano ocorre apenas nas formas pulmonares da doença",
+                    "C. Crianças são mais propensas a transmitir a doença para outros membros da família",
+                    "D. A transmissão pessoa-pessoa é comum, especialmente entre contactantes domiciliares",
+                    "E. Não há evidências científicas consistentes de transmissão direta entre seres humanos"
                 ],
                 correct: 4,
-                context: "<b>Justificativa:</b> A esporotricose humana costuma apresentar escassas leveduras ao exame histopatológico (paucifúngica). Contudo, em pacientes idosos ou imunossenescentes com infecção crônica não tratada por meses, a carga fúngica tecidual pode se elevar expressivamente."
+                context: "<b>Justificativa da alternativa correta:</b><br>A esporotricose é transmitida por inoculação traumática através de vegetais ou por mordeduras/arranhaduras de animais (gatos). Não há comprovação de transmissão direta interpessoal na rotina clínica.<br><br><b>Análise das incorretas:</b><br>• A, B, C e D: Afirmar erroneamente que a esporotricose possui transmissão direta entre pessoas no ambiente domiciliar."
             },
             {
                 num: 27,
-                category: "Dimorfismo Térmico Fúngico",
-                statement: "Questão 27\nEnunciado:\nO fungo isolado no caso apresenta um fenômeno morfofisiológico característico que nos ajuda a realizar o diagnóstico dessas micoses. Esse fenômeno é:",
+                category: "Esporotricose Zoonótica Felina",
+                statement: "Questão 27\nEnunciado:\nUm médico está avaliando um caso suspeito de esporotricose em uma área endêmica. Durante a anamnese, quais informações epidemiológicas são mais relevantes para fortalecer a suspeita diagnóstica?",
                 options: [
-                    "A. Parasitismo intracelular",
-                    "B. Dimorfismo fúngico",
-                    "C. Filamentação",
-                    "D. Produção de pseudo-hifas",
-                    "E. Esporulação"
+                    "A. Contato com felinos domésticos, especialmente com lesões cutâneas visíveis",
+                    "B. Viagem recente para regiões de clima temperado",
+                    "C. Ocupação relacionada exclusivamente à agricultura e jardinagem",
+                    "D. História de imunossupressão ou uso prolongado de corticosteroides",
+                    "E. Consumo de água não tratada proveniente de fontes naturais"
                 ],
-                correct: 1,
-                context: "<b>Justificativa:</b> O complexo Sporothrix é dimórfico térmico: desenvolve-se como micélio/fungo filamentoso a 25°C no meio ambiente/cultura e como levedura a 37°C no hospedeiro."
+                correct: 0,
+                context: "<b>Justificativa da alternativa correta:</b><br>No cenário epidemiológico atual, o contato com gatos doentes por Sporothrix brasiliensis é o principal vetor e fator de risco para a transmissão da esporotricose.<br><br><b>Análise das incorretas:</b><br>• B, D e E: Não possuem relação epidemiológica causal direta com a aquisição da esporotricose.<br>• C: A epidemia urbana/zoonótica felina é a informação epidemiológica de maior relevância atual."
             },
             {
                 num: 28,
-                category: "Sporothrix spp. e Cultivo em Flor",
-                statement: "Questão 28\nEnunciado:\nAs culturas referentes ao fungo isolado que permitiram a identificação em nível de gênero provavelmente se referem a uma imagem compatível com (indique a letra da alternativa referente à imagem 28 no caderno de figuras):",
+                category: "Fatores Predisponentes para Candidíase",
+                statement: "Questão 28\nEnunciado:\nSão condições que podem predispor o indivíduo a adquirir candidíase, EXCETO:",
                 options: [
-                    "A. Imagem E",
-                    "B. Imagem A",
-                    "C. Imagem B",
-                    "D. Imagem D",
-                    "E. Imagem C"
+                    "A. Idoso que estava com diarreia crônica sob antibioticoterapia prolongada.",
+                    "B. Adolescente com doença autoimune fazendo uso de corticoides.",
+                    "C. Paciente que adquiriu hepatite A ao comer ostras cruas em um restaurante.",
+                    "D. Paciente com linfoma não-Hodgkin fazendo tratamento com quimioterápico e imunoterapia",
+                    "E. Mulher moradora de comunidade carente que foi orientada por um influencer da Internet a passar um desinfetante de uso doméstico na mucosa vaginal."
                 ],
-                correct: 1,
-                context: "<b>Justificativa:</b> A Imagem A exibe hifas finas septadas com conídeos arranjados em 'margarida' ou flor, característicos do cultivo do Sporothrix a 25°C."
+                correct: 2,
+                context: "<b>Justificativa da alternativa correta:</b><br>A alternativa C é a EXCEÇÃO solicitada. A hepatite A é uma infecção viral aguda de transmissão fecal-oral que não altera a microbiota ou a imunidade celular de forma a predispor à candidíase.<br><br><b>Análise das demais (fatores de risco reais):</b><br>• A, B e D: Antibioticoterapia prolongada, corticoterapia e quimioterapia predispõem à candidíase.<br>• E: Uso de saneantes domésticos na mucosa vaginal destrói os lactobacilos protetores, predispondo à candidíase vulvovaginal."
             },
             {
                 num: 29,
-                category: "Lacaziose (Doença de Jorge Lobo)",
-                statement: "Questão 29\nEnunciado:\nPaciente vindo da região amazônica apresentou-se com lesão de aspecto de quelóide na orelha. Obteve-se, no exame do histopatológico, a imagem de células arredondadas de parede dupla compatíveis com o tamanho de um fungo. Elas demonstravam brotamento sequencial com uma ligação entre as células. Podemos desconfiar de forma fundamentada de que se trata de:",
+                category: "Nicho Ecológico do Cryptococcus",
+                statement: "Questão 29\nEnunciado:\nQual o principal habitat do Cryptococcus neoformans?",
                 options: [
-                    "A. Esporotricose",
-                    "B. Micetoma",
-                    "C. Lacaziose",
-                    "D. Cromomicose",
-                    "E. Fungo dermatófito"
+                    "A. Não se conhece claramente até hoje qual o habitat do C. neoformans",
+                    "B. Fezes de aves, notadamente de pombos.",
+                    "C. Esse agente faz parte da microbiota humana, se manifestando quando há severa imunodepressão, permitindo que ele se torne um perigoso oportunista.",
+                    "D. Matéria animal em decomposição no solo.",
+                    "E. Troncos de eucalipto e outras árvores."
                 ],
-                correct: 2,
-                context: "<b>Justificativa:</b> A procedência da região Amazônica, as lesões cutâneas queloidianas crônicas em orelha e a microscopia mostrando leveduras ligadas em cadeia catenulada (istmo) são patognomônicas da Lacaziose (Doença de Jorge Lobo / Lacazia loboi)."
+                correct: 1,
+                context: "<b>Justificativa da alternativa correta:</b><br>O solo enriquecido com fezes de aves, em particular excrementos de pombos (Columba livia), é o principal reservatório ambiental do Cryptococcus neoformans.<br><br><b>Análise das incorretas:</b><br>• A: O habitat ambiental da levedura é bem estabelecido.<br>• C: É um patógeno ambiental, não comensal da microbiota humana.<br>• D e E: O habitat associado a árvores como o eucalipto é característico do Cryptococcus gattii."
             },
             {
                 num: 30,
-                category: "Cromoblastomicose e Diagnóstico",
-                statement: "Questão 30\nEnunciado:\nQUADRO CLÍNICO RELATIVO ÀS QUESTÕES 30. 31 e 32: Um lenhador de 94 anos de idade apresentou uma história de uma lesão aumentando lentamente na parte de trás de sua coxa direita. Foi diagnosticado como dermatofitose por dermatologistas locais e tratados com ketoconazol tópico e terbinafina. No entanto, a erupção foi ampliando apesar do tratamento e ele foi encaminhado a outro hospital. Foi feito raspado da borda da lesão (seu aspecto coincidente com dermatofitose era muito grande). As escamas examinadas em exame direto com KOH a 10% evidenciaram as estruturas vistas abaixo (figura 30 A). Exame de cultura no ágar Sabouraud do material clínico mostrou crescimentos de colônias amontoadas e difusas com superfície preta (Fig. 30 B).\n\nDe qual doença você desconfiou com o conjunto de dados acima?",
-                options: [
-                    "A. Hialo-hifomicose",
-                    "B. Feo-hifomicose",
-                    "C. Cromomicose",
-                    "D. Lobomicose",
-                    "E. Esporotricose"
-                ],
-                correct: 2,
-                context: "<b>Justificativa:</b> Lesão verrucosa/em placa de crescimento lento refratária ao tratamento dermatofítico, que revela no direto elementos fúngicos acastanhados e colônias enegrecidas demáceas em ágar Sabouraud, confirma Cromoblastomicose (Cromomicose)."
-            },
-            {
-                num: 31,
-                category: "Corpúsculos Muriformes (Fumagoides)",
-                statement: "Questão 31\nEnunciado:\nA se pressupor que sua hipótese diagnóstica esteja correta, qual o nome das estruturas observadas?",
-                options: [
-                    "A. Corpúsculos muriformes",
-                    "B. Corpúsculo de Hassal",
-                    "C. Blastoconídeos",
-                    "D. Esporângios",
-                    "E. Esférulas"
-                ],
-                correct: 0,
-                context: "<b>Justificativa:</b> Os corpúsculos muriformes (corpos fumagoides) são as estruturas fúngicas acastanhadas septadas em múltiplos planos observadas no tecido na cromoblastomicose."
-            },
-            {
-                num: 32,
-                category: "Fungos Demáceos e Melanina",
-                statement: "Questão 32\nEnunciado:\nA cultura do agente isolado mostra que se trata claramente de um fungo:",
-                options: [
-                    "A. Hialino",
-                    "B. Leveduriforme",
-                    "C. Fastidioso",
-                    "D. Demaceácio (Demácio)",
-                    "E. Dimórfico"
-                ],
-                correct: 3,
-                context: "<b>Justificativa:</b> Fungos que sintetizam pigmento de melanina em suas paredes celulares, gerando estruturas e colônias de coloração castanha a preta, são classificados como demáceos."
-            },
-            {
-                num: 33,
-                category: "Micetoma e Eliminação de Grãos",
-                statement: "Questão 33\nEnunciado:\nDe um paciente com uma tumoração nos pés com presença de grãos foi feita uma biópsia que constatou presença de filamentos de parede dupla nos seus tecidos. Havia muito pouca produção de pus ou secreção serossanguinolenta (figura 33 caderno de figuras). O paciente relatou que esse tipo de lesão o acompanhava já há três meses, sugerindo uma evolução crônica que não afetou o seu estado geral. Diante dessas informações, provavelmente se trata de:",
-                options: [
-                    "A. Criptococose",
-                    "B. Candidíase",
-                    "C. Esporotricose",
-                    "D. Paracoccidioidomicose",
-                    "E. Micetoma"
-                ],
-                correct: 4,
-                context: "<b>Justificativa:</b> A apresentação clínica pseudotumoral de localização podálica, de evolução crônica, com fístulas e eliminação tecidual de grãos define a síndrome do Micetoma."
-            },
-            {
-                num: 34,
-                category: "Criptococose e Tinta da China",
-                statement: "Questão 34\nEnunciado:\nNo caso de um paciente com meningoencefalite suspeita de ser criptococose, qual imagem do exame do LCR nos permitiria reforçar a suspeita para essa doença (imagem 34 caderno de figuras)?",
-                options: [
-                    "A. Imagem E",
-                    "B. Imagem B",
-                    "C. Imagem A",
-                    "D. Imagem C",
-                    "E. Imagem D"
-                ],
-                correct: 4,
-                context: "<b>Justificativa:</b> A Imagem D demonstra a microscopia de líquor corado com tinta da China (nanquim), evidenciando o halo claro correspondente à espessa cápsula polissacarídica em volta das leveduras de Cryptococcus."
-            },
-            {
-                num: 35,
-                category: "Candidíase Oral em Imunossuprimidos",
-                statement: "Questão 35\nEnunciado:\nUm paciente transplantado de rim passa a apresentar lesões brancas e dolorosas na língua e mucosa oral. Qual espécie de Candida é a mais frequentemente associada à candidíase oral em pacientes imunocomprometidos?",
-                options: [
-                    "A. Candida krusei",
-                    "B. Candida albicans",
-                    "C. Candida neoformans",
-                    "D. Candida glabrata",
-                    "E. Candida tropicalis"
-                ],
-                correct: 1,
-                context: "<b>Justificativa:</b> Candida albicans é o agente etiológico fúngico mais prevalente e frequente nas lesões de candidíase orofaríngea em hospedeiros imunossuprimidos e transplantados."
-            },
-            {
-                num: 36,
                 category: "Prevenção de Candidíase Nosocomial",
-                statement: "Questão 36\nEnunciado:\nUma UTI tem um surto de candidíase por uma cepa de Candida particularmente filamentosa. Qual medida de prevenção é recomendada para reduzir o risco de candidíase invasiva em pacientes internados nessa unidade?",
+                statement: "Questão 30\nEnunciado:\nUma UTI tem um surto de candidíase por uma cepa de Candida particularmente filamentosa. Qual medida de prevenção é recomendada para reduzir o risco de candidíase invasiva em pacientes internados nessa unidade?",
                 options: [
-                    "A. Uso profilático de imunoterápicos (Acs monoclonais contra mananas de parede)",
-                    "B. Uso de máscara PFF2",
+                    "A. Uso de máscara PFF2",
+                    "B. Uso profilático de imunoterápicos (Acs monoclonais contra mananas de parede)",
                     "C. Administração profilática de antibióticos de amplo espectro",
-                    "D. Higiene rigorosa das mãos de todo o corpo técnico e também das superfícies e equipamentos",
-                    "E. Uso de corticosteroides de alta dose"
+                    "D. Uso de corticosteroides de alta dose",
+                    "E. Higiene rigorosa das mãos de todo o corpo técnico e também das superfícies e equipamentos"
                 ],
-                correct: 3,
-                context: "<b>Justificativa:</b> A higienização das mãos aliada ao controle ambiental e de equipamentos impede a transmissão cruzada nosocomial por contato de leveduras do gênero Candida."
-            },
-            {
-                num: 37,
-                category: "Filamentação e Virulência em Candida",
-                statement: "Questão 37\nEnunciado:\nA filamentação observada no isolado da questão anterior se relaciona a:",
-                options: [
-                    "A. Um grau de virulência maior devido à sua maior capacidade de adesão às células do hospedeiro",
-                    "B. A uma mudança morfológica induzida pelos hormônios femininos (estrógeno e progesterona), tornando esse fungo mais facilmente reconhecível pelos fagócitos.",
-                    "C. Ao dimorfismo térmico das leveduras do gênero Candida.",
-                    "D. A nenhum aspecto especial, sendo apenas uma característica morfológica que sequer ajuda na identificação",
-                    "E. A um detalhe fundamental do diagnóstico, pois ramificações em ângulo reto das hifas são indicativos do gênero Candida."
-                ],
-                correct: 0,
-                context: "<b>Justificativa:</b> A transição morfológica de levedura para pseudo-hifa/hifa (filamentação) em Candida albicans aumenta a expressão de adesinas, facilita a penetração tecidual e o escape da fagocitose, representando um fator central de virulência."
-            },
-            {
-                num: 38,
-                category: "Nicho Ecológico do Cryptococcus",
-                statement: "Questão 38\nEnunciado:\nQual o principal habitat do Cryptococcus neoformans?",
-                options: [
-                    "A. Troncos de eucalipto e outras árvores.",
-                    "B. Matéria animal em decomposição no solo.",
-                    "C. Fezes de aves, notadamente de pombos.",
-                    "D. Esse agente faz parte da microbiota humana, se manifestando quando há severa imunodepressão, permitindo que ele se torne um perigoso oportunista.",
-                    "E. Não se conhece claramente até hoje qual o habitat dele"
-                ],
-                correct: 2,
-                context: "<b>Justificativa:</b> O nicho ecológico principal do Cryptococcus neoformans é o solo enriquecido com excretas de aves, principalmente pombos urbanos (Columba livia)."
-            },
-            {
-                num: 39,
-                category: "Esporotricose Zoonótica Emergente",
-                statement: "Questão 39\nEnunciado:\nAnalise as seguintes afirmativas e indique a alternativa que contempla TODAS AS AFIRMATIVAS CORRETAS:\nI - Biópsias de tecidos afetados pelo Sporothrix schenckii corados por PAS ou Grocott demonstram abundantes células leveduriformes.\nII - Um fator de risco para se adquirir a esporotricose é a inalação de esporos do fungo, que cresce em matéria vegetal em decomposição.\nIII - A esporotricose é uma das principais doenças emergentes do Estado de São Paulo.",
-                options: [
-                    "A. I e III",
-                    "B. II e III",
-                    "C. I",
-                    "D. II",
-                    "E. III"
-                ],
-                correct: 0,
-                context: "<b>Justificativa:</b> Estão corretas as afirmativas I (as técnicas de PAS e Grocott evidenciam as estruturas fúngicas nas biópsias) e III (a esporotricose de transmissão zoonótica felina é uma relevante infecção emergente no Estado de São Paulo).<br><br><b>Incorreta:</b> II está incorreta pois a transmissão ocorre por inoculação percutânea traumática."
-            },
-            {
-                num: 40,
-                category: "Fungemia por Candida e PCR",
-                statement: "Questão 40\nEnunciado:\nA partir de um paciente com uma septicemia inespecífica que não cede a diferentes antibióticos, podemos passar a suspeitar do principal agente fúngico de fungemias que é a ______________. Esse tipo de quadro pode ser diagnosticado por ______________, que possui relativamente alta sensibilidade (88%), embora não possa prescindir de métodos fenotípicos.\n\nA alternativa que completa de forma correta e respectiva as lacunas acima é:",
-                options: [
-                    "A. Candida glabrata / Pesquisa de mananas no sangue",
-                    "B. Candida krusei / Hemocultura",
-                    "C. Candida albicans / Hemocultura",
-                    "D. Candida albicans / PCR",
-                    "E. Aspergillus fumigatus / Detecção de anticorpos anti-manana"
-                ],
-                correct: 3,
-                context: "<b>Justificativa:</b> Candida albicans é o agente fúngico mais isolado em episódios de fungemia hospitalar. As técnicas moleculares de reações em cadeia da polimerase (PCR) oferecem diagnóstico rápido e de alta sensibilidade complementar ao diagnóstico fenotípico padrão."
+                correct: 4,
+                context: "<b>Justificativa da alternativa correta:</b><br>A higienização adequada das mãos da equipe de saúde associada à desinfecção concorrente de superfícies e equipamentos são as medidas fundamentais para interromper a transmissão nosocomial de Candida.<br><br><b>Análise das incorretas:</b><br>• A: Candida não se transmite por via aérea.<br>• B: Não há recomendação de imunoterapia monoclonal profilática.<br>• C e D: O uso de antibióticos de amplo espectro e corticoides aumenta o risco de candidíase invasiva."
             }
         ];
 
         /* SUBSEÇÕES PARA BLOCOS PARCIAIS */
-        const questions2023_pt1 = questions2023.slice(0, 20);
-        const questions2023_pt2 = questions2023.slice(20, 40);
+        const questions2025_pt1 = questions2025.slice(0, 15);
+        const questions2025_pt2 = questions2025.slice(15, 30);
 
         /* ==========================================================================
            2. ESTADO GLOBAL, CONFIGURAÇÕES E MOTOR DO SISTEMA
            ========================================================================== */
-        let activeEdition = '2023_full';
-        let currentQuestions = questions2023;
+        let activeEdition = '2025_full';
+        let currentQuestions = questions2025;
         let currentQIndex = 0;
         let userAnswers = [];
         let userConfidence = [];
@@ -2165,11 +2025,11 @@
         }
 
         function saveSettings() {
-            localStorage.setItem('simulado_2023_settings', JSON.stringify(appSettings));
+            localStorage.setItem('simulado_2025_settings', JSON.stringify(appSettings));
         }
 
         function loadSettings() {
-            const saved = localStorage.getItem('simulado_2023_settings');
+            const saved = localStorage.getItem('simulado_2025_settings');
             if (saved) {
                 try {
                     appSettings = { ...appSettings, ...JSON.parse(saved) };
@@ -2269,7 +2129,7 @@
             const container = document.getElementById('topic-checkbox-list');
             container.innerHTML = '';
 
-            const categories = [...new Set(questions2023.map(q => q.category))].sort();
+            const categories = [...new Set(questions2025.map(q => q.category))].sort();
 
             let html = `
                 <label style="display: flex; align-items: center; gap: 8px; margin-bottom: 10px; font-size: 0.9rem; cursor: pointer; color: var(--text-main); font-weight: bold;">
@@ -2352,12 +2212,12 @@
             }
 
             let baseQuestions;
-            if (type === '2023_full') {
-                baseQuestions = questions2023;
-            } else if (type === '2023_pt1') {
-                baseQuestions = questions2023_pt1;
-            } else if (type === '2023_pt2') {
-                baseQuestions = questions2023_pt2;
+            if (type === '2025_full') {
+                baseQuestions = questions2025;
+            } else if (type === '2025_pt1') {
+                baseQuestions = questions2025_pt1;
+            } else if (type === '2025_pt2') {
+                baseQuestions = questions2025_pt2;
             }
 
             const totalCategories = document.querySelectorAll('.topic-cb').length;
@@ -2388,9 +2248,9 @@
             isEraserActive = false;
 
             const modeLabel = gameMode === 'estudo' ? 'MODO ESTUDO' : 'SIMULADO REALISTA';
-            let editionBadgeText = 'PROVA 2023 (1-40)';
-            if (type === '2023_pt1') editionBadgeText = 'PROVA 2023 (Q1 a Q20)';
-            if (type === '2023_pt2') editionBadgeText = 'PROVA 2023 (Q21 a Q40)';
+            let editionBadgeText = 'PROVA 2025 (1-30)';
+            if (type === '2025_pt1') editionBadgeText = 'PROVA 2025 (Q1 a Q15)';
+            if (type === '2025_pt2') editionBadgeText = 'PROVA 2025 (Q16 a Q30)';
 
             document.getElementById('quiz-title-badge').innerText = `${editionBadgeText} (${modeLabel})`;
             document.getElementById('quiz-title-badge').style.color = '#38bdf8';
@@ -2908,7 +2768,7 @@
                 return;
             }
 
-            let all = [...questions2023];
+            let all = [...questions2025];
             const totalCategories = document.querySelectorAll('.topic-cb').length;
             if (selectedTopics.length < totalCategories) {
                 all = all.filter(q => selectedTopics.includes(q.category));
@@ -2965,7 +2825,7 @@
 
         function rateFlashcard(rating) {
             const card = flashcardDeck[flashcardIndex];
-            const cardKey = `srs_2023_${card.num}`;
+            const cardKey = `srs_2025_${card.num}`;
             
             let days = 1;
             if (rating === 'good') days = 3;
@@ -2977,7 +2837,7 @@
                 rating: rating
             };
 
-            localStorage.setItem('simulado_2023_srs', JSON.stringify(srsData));
+            localStorage.setItem('simulado_2025_srs', JSON.stringify(srsData));
             nextFlashcard();
         }
 
@@ -3049,9 +2909,9 @@
             document.getElementById('game-hud').style.display = 'none';
             document.getElementById('report-screen').style.display = 'block';
 
-            let editionName = 'PROVA 2023 COMPLETA';
-            if (activeEdition === '2023_pt1') editionName = 'PROVA 2023 (PARTE 1)';
-            if (activeEdition === '2023_pt2') editionName = 'PROVA 2023 (PARTE 2)';
+            let editionName = 'PROVA 2025 COMPLETA';
+            if (activeEdition === '2025_pt1') editionName = 'PROVA 2025 (PARTE 1)';
+            if (activeEdition === '2025_pt2') editionName = 'PROVA 2025 (PARTE 2)';
 
             document.getElementById('rep-edition-title').innerText = `📊 DIAGNÓSTICO DE DESEMPENHO (${editionName})`;
             document.getElementById('rep-score-big').innerText = `${overallPercent}%`;
@@ -3096,7 +2956,7 @@
         }
 
         function saveAttemptToHistory(edition, pct, pts, timeStr) {
-            let history = JSON.parse(localStorage.getItem('simulado_2023_history') || '[]');
+            let history = JSON.parse(localStorage.getItem('simulado_2025_history') || '[]');
             history.unshift({
                 date: new Date().toLocaleDateString('pt-BR') + ' ' + new Date().toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' }),
                 edition,
@@ -3105,13 +2965,13 @@
                 timeStr
             });
             if (history.length > 10) history = history.slice(0, 10);
-            localStorage.setItem('simulado_2023_history', JSON.stringify(history));
+            localStorage.setItem('simulado_2025_history', JSON.stringify(history));
             renderHistory();
         }
 
         function renderHistory() {
             const container = document.getElementById('history-list-content');
-            let history = JSON.parse(localStorage.getItem('simulado_2023_history') || '[]');
+            let history = JSON.parse(localStorage.getItem('simulado_2025_history') || '[]');
             
             if (history.length === 0) {
                 container.innerHTML = '<p style="color: var(--text-muted); font-size: 0.9rem;">Nenhuma tentativa concluída ainda. Complete um simulado para ver sua evolução!</p>';
@@ -3136,7 +2996,7 @@
 
         function clearHistory() {
             if (confirm('Deseja realmente apagar o histórico de desempenho?')) {
-                localStorage.removeItem('simulado_2023_history');
+                localStorage.removeItem('simulado_2025_history');
                 renderHistory();
             }
         }
@@ -3204,10 +3064,10 @@
             });
 
             const overallPercent = answered > 0 ? Math.round((correct / currentQuestions.length) * 100) : 0;
-            let editionName = 'PROVA 2023';
+            let editionName = 'PROVA 2025';
 
             let text = `==================================================\n`;
-            text += `   RELATÓRIO E ANOTAÇÕES - MICOLOGIA PROVA 2023\n`;
+            text += `   RELATÓRIO E ANOTAÇÕES - MICOLOGIA PROVA 2025\n`;
             text += `==================================================\n\n`;
             text += `Edição: ${editionName}\n`;
             text += `Modo de Execução: ${gameMode === 'estudo' ? 'Modo Estudo' : 'Simulado Realista'}\n`;
@@ -3239,7 +3099,7 @@
             const url = URL.createObjectURL(blob);
             const a = document.createElement('a');
             a.href = url;
-            a.download = `Relatorio_Micologia_Prova2023_${new Date().toISOString().slice(0,10)}.txt`;
+            a.download = `Relatorio_Micologia_Prova2025_${new Date().toISOString().slice(0,10)}.txt`;
             document.body.appendChild(a);
             a.click();
             document.body.removeChild(a);
@@ -3288,11 +3148,11 @@
                 currentTheme,
                 isForceMobile
             };
-            localStorage.setItem('simulado_2023_state', JSON.stringify(state));
+            localStorage.setItem('simulado_2025_state', JSON.stringify(state));
         }
 
         function loadState() {
-            const saved = localStorage.getItem('simulado_2023_state');
+            const saved = localStorage.getItem('simulado_2025_state');
             if (saved) {
                 try {
                     const state = JSON.parse(saved);
@@ -3308,7 +3168,7 @@
                 }
             }
 
-            const srsSaved = localStorage.getItem('simulado_2023_srs');
+            const srsSaved = localStorage.getItem('simulado_2025_srs');
             if (srsSaved) {
                 try { srsData = JSON.parse(srsSaved); } catch(e){}
             }
